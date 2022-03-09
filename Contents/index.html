@@ -20,12 +20,14 @@
       rel="stylesheet"
     />
 
-    <title>Hello, world!</title>
+    <title>Swap Money</title>
   </head>
   <body>
+    <!-- <header class="navbar navbar-expand-md navbar-dark bd-navbar navbar_wrapper">
+    </header> -->
     <div class="navbar_wrapper">
-      <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container-md firstContainer">
+      <nav class="navbar navbar-expand-lg fixed-top sub-header">
+        <div class="container-fluid firstContainer">
           <a class="navbar-brand" href="#">
             <img src="./Images/SWAP MONEY LOGO (reversed) 1.png" />
           </a>
@@ -33,36 +35,38 @@
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              class="bi"
+              fill="white"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              ></path>
+            </svg>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 topNav">
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  About Us
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -131,10 +135,13 @@
                 </ul>
               </li>
             </ul>
-                      <div class="navBar loginButton">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
-            <button class="btn" type="submit">Join Now!</button>
-          </div>
+            <div class="d-flex loginButton">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+
+              <button class="btn" type="button">
+                Join Now!
+              </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -143,11 +150,12 @@
     <section class="hero-section">
       <div class="container-md hero-section-1">
         <div class="row hero-1">
-          <div class="col-sm sub_hero">
+          <div class="col-sm col-md-6 sub_hero">
             <div class="herotext">
               <h1>
-                Make your <br />
-                money go further for you
+                Make your
+                money go further
+                for you
               </h1>
               <p>
                 Make something more of your money by using our safe platform
@@ -155,9 +163,9 @@
               <button class="hero_button" fa-refresh>Swap Money</button>
             </div>
           </div>
-          <div class="col-sm sub_hero_2">
+          <div class="col-sm col-md-6 sub_hero_2">
             <div class="heroimage">
-              <img src="./Images/globeforhero.png" alt="blobe" />
+              <img src="./Images/globeforhero.png" alt="globe" class="rotating-globe"/>
             </div>
           </div>
         </div>
@@ -192,7 +200,7 @@
     <section class="about-us">
       <div class="container sub_section-2">
         <div class="row about-us-row">
-          <div class="col-sm about-text">
+          <div class="col-sm col-md about-text">
             <div class="about-us__1">
               <h3>About Us</h3>
               <p>
@@ -203,24 +211,23 @@
             <div class="about-us__1">
               <h3>Our Story</h3>
               <p>
-                As professionals working away from our home countries, we <br />
-                were faced with many challenges and unanswered<br />
-                questions; how to remit money back home, why the<br />
+                As professionals working away from our home countries, we
+                were faced with many challenges and unanswered
+                questions; how to remit money back home, why the
                 exorbitant transfer fees and low exchange rates offered by
-                <br />
-                existing remittance providers, which ones of these providers<br />
-                were safe and secure, and will deliver the desired<br />
-                termination point to our families back home, ultimately<br />
+                existing remittance providers, which ones of these providers
+                were safe and secure, and will deliver  the desired
+                termination point to our families back home,  ultimately
                 maximising the value of our hard-earned money.
               </p>
               <p>
-                We were sure most professionals would have shared this<br />
+                We were sure most professionals would have shared this 
                 experience at one time or the other.
               </p>
               <button class="learn-more" learn>Learn more</button>
             </div>
           </div>
-          <div class="col-sm about-image">
+          <div class="col-sm col-md about-image">
             <img src="./Images/about 1.png" alt="about us image" />
             <div class="sub-image">
               <h5>
@@ -236,7 +243,7 @@
     </section>
 
     <section class="our-partners">
-      <!-- <img src="./Images/shapemask.png" alt=""> -->
+      <!-- <img src="./Images/svg-path (4).svg" alt=""> -->
       <div class="container sub-section">
         <div class="header-text">
           <h2>
@@ -295,7 +302,7 @@
           </div>
         </div>
         <div class="row sub-section-2">
-          <div class="col-sm swap-benefits-1">
+          <div class="col swap-benefits-1">
             <div class="swap-card">
               <div class="icon">
                 <img src="./icons/Money.png" alt="Money" />
@@ -306,7 +313,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm swap-benefits-2">
+          <div class="col swap-benefits-2">
             <div class="swap-card">
               <div class="icon">
                 <img src="./icons/world.png" alt="World" />
@@ -317,7 +324,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm swap-benefits-3">
+          <div class="col swap-benefits-3">
             <div class="swap-card">
               <div class="icon">
                 <img src="./icons/currency.png" alt="Currency" />
@@ -328,7 +335,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm swap-benefits-4">
+          <div class="col swap-benefits-4">
             <div class="swap-card">
               <div class="icon">
                 <img src="./icons/secuirity.png" alt="Security" />
@@ -432,7 +439,7 @@
       </div>
     </section>
 
-    <section class="swap-money-footer">
+    <footer class="swap-money-footer">
       <div class="container sub-section">
         <div class="row sub-section-1">
           <div class="col-sm swap-footer-1">
@@ -448,7 +455,7 @@
             <div class="footer-companies">
               <span class="companies">COMPANY</span>
               <div class="footer-links">
-                <p><a href="">About Us</a>
+                <p><a href="">About Us</a></p>
                 <p><a href="">What we offer</a></p>
                 <p><a href="">Work with us</a></p>
                 <p><a href="">Contact us</a></p>
@@ -461,7 +468,7 @@
             <div class="footer-products">
               <span class="products">PRODUCT</span>
               <div class="footer-links">
-                <p><a href="">Individual</a>
+                <p><a href="">Individual</a></p>
                 <p><a href="">Business</a></p>
                 <p><a href="">WMargin Market</a></p>
                 <p><a href="">Agent</a></p>
@@ -473,7 +480,7 @@
             <div class="footer-offers">
               <span class="offers">COMPANY</span>
               <div class="footer-links">
-                <p><a href="">Text</a>
+                <p><a href="">Text</a></p>
                 <p><a href="">Text</a></p>
                 <p><a href="">Text</a></p>
                 <p><a href="">Text</a></p>
@@ -483,7 +490,7 @@
           </div>
         </div>
         <div class="footer-line">
-          <hr>
+          <hr />
         </div>
         <div class="footer-base">
           <div class="footer-base-circles">
@@ -497,7 +504,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
