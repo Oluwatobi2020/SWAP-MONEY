@@ -1116,7 +1116,7 @@ body {
   }
 }
 
-.girl-image {
+.girl-image.active {
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
   -webkit-animation-name: slidein;

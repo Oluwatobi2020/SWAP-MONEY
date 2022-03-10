@@ -1121,9 +1121,10 @@ body {
   }
 }
 
-.girl-image {
+.girl-image.active {
   animation-duration: 3s;
   animation-name: slidein;
+  // animation: typeIn 2s steps(28) forwards;
 }
 
 @keyframes slidein {

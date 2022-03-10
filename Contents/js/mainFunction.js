@@ -30,9 +30,9 @@ function addObserver(el, options){
     observer.observe(el)
 }
 // Example usages:
-scrollTrigger('')
+scrollTrigger('.girl-image')
 
-scrollTrigger('', {
+scrollTrigger('.scroll-reveal', {
     rootMargin: '-200px',
 })
 
