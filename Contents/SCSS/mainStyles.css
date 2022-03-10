@@ -207,7 +207,7 @@ body {
     color: #FFFFFF;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    display: none;
+    width: 100%;
   }
 }
 
@@ -750,6 +750,9 @@ body {
 }
 
 @media screen and (max-width: 993px) {
+  .why-swap-money .sub-section .sub-section-2 {
+    padding: 0;
+  }
   .why-swap-money .sub-section .sub-section-2 .swap-benefits-1 {
     margin-top: 2rem;
     margin-left: 2rem;

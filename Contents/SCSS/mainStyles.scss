@@ -228,7 +228,8 @@ body {
         .sub_hero_2 {
           .heroimage {
             img {
-              display: none;
+              // display: none;
+              width: 100%;
             }
           }
         }
@@ -757,6 +758,7 @@ body {
         }
       }
       .sub-section-2 {
+        padding: 0;
         .swap-benefits-1 {
           margin-top: 2rem;
           margin-left: 2rem;
