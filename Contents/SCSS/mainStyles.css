@@ -84,6 +84,14 @@ body {
   font-size: 0.8em;
 }
 
+.navbar_wrapper .sub-header .firstContainer .collapse .loginButton button:hover {
+  background-color: #00AFF0;
+  border: none;
+  color: #FFFFFF;
+  width: 80%;
+  font-size: 0.8em;
+}
+
 .hero-section {
   margin-top: 7rem;
 }
@@ -99,6 +107,7 @@ body {
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext {
+  overflow: hidden;
   text-align: left;
 }
 
@@ -135,6 +144,20 @@ body {
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
+  color: #FFFFFF;
+}
+
+.hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button:hover {
+  margin-top: 1.5rem;
+  background-color: #0ba2da;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button:hover img {
   color: #FFFFFF;
 }
 
@@ -259,7 +282,16 @@ body {
   margin-top: 1rem;
   background-color: #e5e5e5;
   color: #00AFF0;
-  border: 1px solid #FFFFFF;
+  border: none;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.about-us .sub_section-2 .about-us-row .about-text .about-us__1 .learn-more:hover {
+  margin-top: 1rem;
+  background-color: #00AFF0;
+  color: #FFFFFF;
+  border: none;
   padding: 1rem;
   border-radius: 7px;
 }
@@ -295,7 +327,7 @@ body {
 }
 
 .about-us .sub_section-2 .about-us-row .about-image .sub-image h5 {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.8em;
@@ -366,11 +398,14 @@ body {
 }
 
 .our-partners {
-  background: #E5E5E5;
+  background: #e5e5e5;
+}
+
+.our-partners .parabola_1 img, .our-partners .parabola_2 img {
+  width: 100%;
 }
 
 .our-partners .sub-section {
-  padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -761,7 +796,16 @@ body {
   margin-top: 1rem;
   background-color: #e5e5e5;
   color: #00AFF0;
-  border: 1px solid #FFFFFF;
+  border: none;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.why-swap-money-2 .sub-section .sub-section-2 .why-swap-text .learn-more:hover {
+  margin-top: 1rem;
+  background-color: #00AFF0;
+  color: #FFFFFF;
+  border: none;
   padding: 1rem;
   border-radius: 7px;
 }
@@ -780,7 +824,7 @@ body {
 }
 
 .win-with-us {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .win-with-us .sub-section {
@@ -826,7 +870,18 @@ body {
           box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
   border-radius: 7px;
   border: none;
-  color: #F9FAFB;
+  color: #f9fafb;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body .cards-button:hover {
+  margin-top: 1rem;
+  background: #2e9dc2;
+  /* Shadow/02 */
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+  border-radius: 7px;
+  border: none;
+  color: #f9fafb;
 }
 
 @media screen and (max-width: 1200px) {
@@ -886,7 +941,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #9B9BF7;
+  color: #9b9bf7;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-companies .footer-links {
@@ -909,7 +964,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #9B9BF7;
+  color: #9b9bf7;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-products .footer-links {
@@ -932,7 +987,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #9B9BF7;
+  color: #9b9bf7;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-offers .footer-links {
@@ -976,7 +1031,7 @@ body {
 }
 
 .swap-money-footer .sub-section .footer-base .footer-copyright p {
-  color: #9B9BF7;
+  color: #9b9bf7;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1030,5 +1085,52 @@ body {
 .rotating-globe {
   -webkit-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
+}
+
+.herotobeanimated {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.girl-image {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=mainStyles.css.map */
