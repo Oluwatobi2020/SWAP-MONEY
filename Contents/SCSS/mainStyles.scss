@@ -515,8 +515,15 @@ body {
         // padding-left: 1rem;
         // padding-right: 1rem;
         img {
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);          
           width: 10%;
           margin-right: 5rem;
+        }
+        img:hover{
+          -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);          
+          width: 10%;
         }
       }
       .logo_2 {
@@ -524,8 +531,15 @@ body {
         display: flex;
         justify-content: center;
         img {
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);          
           width: 10%;
           margin-right: 2rem;
+        }
+        img:hover{
+          -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);          
+          width: 10%;
         }
       }
 
@@ -534,8 +548,15 @@ body {
         display: flex;
         justify-content: center;
         img {
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);          
           width: 10%;
-          margin-right: 7rem;
+          margin-right: 5rem;
+        }
+        img:hover{
+          -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);          
+          width: 10%;
         }
       }
     }
