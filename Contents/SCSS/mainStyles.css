@@ -1,5 +1,5 @@
 body {
-  background-image: url("../Images/Background gradient with shape.png");
+  background: url("../Images/Background gradient only.png");
   width: 100%;
   height: 100%;
   padding: 0;
@@ -59,7 +59,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 22px;
   color: #FFFFFF;
 }
 
@@ -80,7 +79,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
-  line-height: 22px;
   color: #FFFFFF;
   margin-right: 2rem;
 }
@@ -91,6 +89,7 @@ body {
   color: #00AFF0;
   width: 100%;
   font-size: 0.8em;
+  font-weight: 600;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -120,6 +119,27 @@ body {
   }
 }
 
+@media screen and (max-width: 1216px) {
+  .navbar_wrapper .sub-header {
+    width: 84%;
+  }
+  .navbar_wrapper .sub-header .firstContainer .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar_wrapper .sub-header .firstContainer .navbar-brand img {
+    width: 50%;
+  }
+  .navbar_wrapper .sub-header .firstContainer .navbar-collapse .loginButton .btn {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
 .hero-section {
   margin-top: 5rem;
   background-image: url("../Images/Background gradient with shape.png");
@@ -145,7 +165,6 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 4em;
-  line-height: 97px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,27 +253,47 @@ body {
 }
 
 .hero-section .swapmoney_values .sub-section--1 .values_container {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values {
   color: #FFFFFF;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
   font-weight: 500;
   font-size: 0.6em;
-  line-height: 17px;
 }
 
 .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
   font-family: "Raleway", sans-serif;
   font-weight: 200;
-  font-size: 2.5em;
-  line-height: 49px;
+  font-size: 2em;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
+    font-size: 2.5em;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+    font-size: 0.9em;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
+    color: #FFFFFF;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
     font-size: 40px;
   }
@@ -262,13 +301,75 @@ body {
     font-size: 15px;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-    width: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
     color: #FFFFFF;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
     width: 100%;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+    font-size: 0.3em;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
+    font-size: 30px;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+    font-size: 15px;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 0.7em;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
+    color: #FFFFFF;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
+    width: 100%;
+  }
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+    font-size: 0.3em;
+  }
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
+    font-size: 30px;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+    font-size: 15px;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 0.7em;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
+    color: #FFFFFF;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
+    width: 100%;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+    font-size: 0.3em;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+    font-size: 1.3em;
   }
 }
 
@@ -280,7 +381,9 @@ body {
     font-size: 15px;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-    width: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
     font-size: 0.7em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
@@ -288,6 +391,12 @@ body {
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
     width: 100%;
+  }
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+    font-size: 0.7em;
+  }
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+    font-size: 1.7em;
   }
 }
 
@@ -321,7 +430,6 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size: 1em;
-  line-height: 170%;
   color: #FFFFFF;
   text-align: justify;
   line-break: auto;
@@ -329,9 +437,9 @@ body {
 
 .about-us .sub_section-2 .about-us-row .about-text .about-us__1 .learn-more {
   margin-top: 1rem;
-  background-color: #e5e5e5;
-  color: #00AFF0;
-  border: none;
+  background-color: #e5e5e500;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   padding: 1rem;
   border-radius: 7px;
 }
@@ -463,7 +571,7 @@ body {
 
 .our-partners {
   margin: 0;
-  background: #e5e5e5;
+  background: #FFFFFF;
 }
 
 .our-partners .parabola_1 img,
@@ -501,7 +609,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 1.2em;
-  line-height: 160%;
 }
 
 .our-partners .sub-section .partners-logo .logo_1 {
@@ -630,7 +737,6 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size: 1em;
-  line-height: 170%;
   text-align: justify;
 }
 
@@ -911,7 +1017,6 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 2em;
-  line-height: 61px;
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text p {
@@ -920,15 +1025,14 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size: 1em;
-  line-height: 170%;
   text-align: justify;
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text .learn-more {
   margin-top: 1rem;
-  background-color: #e5e5e5;
-  color: #00AFF0;
-  border: none;
+  background-color: #e5e5e500;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   padding: 1rem;
   border-radius: 7px;
 }
@@ -975,30 +1079,30 @@ body {
   margin-top: 3rem;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 {
   -webkit-box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
           box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
   border-radius: 20px;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body {
   padding-bottom: 4rem;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body .custom-title {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body .custom-title {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body p {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body p {
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 1em;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body .cards-button {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body .cards-button {
   margin-top: 1rem;
   background: #00AFF0;
   /* Shadow/02 */
@@ -1007,9 +1111,139 @@ body {
   border-radius: 7px;
   border: none;
   color: #f9fafb;
+  font-size: 0.5em;
+  padding: 1rem;
 }
 
-.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds .card-body .cards-button:hover {
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body .cards-button:hover {
+  margin-top: 1rem;
+  background: #2e9dc2;
+  /* Shadow/02 */
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+  border-radius: 7px;
+  border: none;
+  color: #f9fafb;
+}
+
+.win-with-us {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.win-with-us .sub-section {
+  padding: 4rem;
+}
+
+.win-with-us .sub-section h2 {
+  font-weight: bold;
+}
+
+.win-with-us .sub-section .sub-section-1 {
+  margin-top: 3rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 {
+  -webkit-box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+          box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+  border-radius: 20px;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body {
+  padding-bottom: 4rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body .custom-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body .cards-button {
+  margin-top: 1rem;
+  background: #00AFF0;
+  /* Shadow/02 */
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+  border-radius: 7px;
+  border: none;
+  color: #f9fafb;
+  font-size: 0.5em;
+  padding: 1rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body .cards-button:hover {
+  margin-top: 1rem;
+  background: #2e9dc2;
+  /* Shadow/02 */
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+  border-radius: 7px;
+  border: none;
+  color: #f9fafb;
+}
+
+.win-with-us {
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.win-with-us .sub-section {
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.win-with-us .sub-section h2 {
+  font-weight: bold;
+}
+
+.win-with-us .sub-section .sub-section-1 {
+  margin-top: 3rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 {
+  -webkit-box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+          box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+  border-radius: 20px;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body {
+  padding-bottom: 4rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body .custom-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body .cards-button {
+  margin-top: 1rem;
+  background: #00AFF0;
+  /* Shadow/02 */
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+  border-radius: 7px;
+  border: none;
+  color: #f9fafb;
+  font-size: 0.5em;
+  padding: 1rem;
+}
+
+.win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body .cards-button:hover {
   margin-top: 1rem;
   background: #2e9dc2;
   /* Shadow/02 */
@@ -1032,7 +1266,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds {
+  .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 {
     margin-top: 4rem;
   }
 }
@@ -1066,7 +1300,6 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 0.8em;
-  line-height: 150%;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 {
@@ -1093,7 +1326,6 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 0.8em;
-  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-companies .footer-links a {
@@ -1117,7 +1349,6 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 0.8em;
-  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-products .footer-links a {
@@ -1141,7 +1372,6 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 0.8em;
-  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-offers .footer-links a {

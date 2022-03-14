@@ -3,7 +3,7 @@
 // html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
-  background-image: url("../Images/Background\ gradient\ with\ shape.png");
+  background: url("../Images/Background\ gradient\ only.png");
   width: 100%;
   height: 100%;
   padding: 0;
@@ -61,7 +61,7 @@ body {
               font-style: normal;
               font-weight: 400;
               font-size: 0.9em;
-              line-height: 22px;
+              // line-height: 22px;
               color: $white;
             }
             ul {
@@ -83,7 +83,7 @@ body {
             font-style: normal;
             font-weight: 400;
             font-size: 0.9em;
-            line-height: 22px;
+            // line-height: 22px;
             color: $white;
             margin-right: 2rem;
           }
@@ -93,6 +93,7 @@ body {
             color: $bg_color;
             width: 100%;
             font-size: 0.8em;
+            font-weight: 600;
             padding-left: 3rem;
             padding-right: 3rem;
           }
@@ -129,6 +130,42 @@ body {
   }
 }
 
+@media screen and(max-width: 1216px) {
+  .navbar_wrapper{
+    .sub-header{
+      width: 84%;
+      // margin-left: 5rem;      
+      .firstContainer{
+        .navbar-brand{
+          display: flex;
+          padding: 0;
+          margin: 0;
+          img{
+            width: 50%;
+          }
+        }
+
+        // .navbar-toggler{
+
+        // }
+        .navbar-collapse{
+          // .navbar-nav{
+
+          // }
+          .loginButton{
+            // a{
+
+            // }
+            .btn{
+              width: max-content;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .hero-section {
   margin-top: 5rem;
   background-image: url("../Images/Background\ gradient\ with\ shape.png");
@@ -150,7 +187,7 @@ body {
             font-style: normal;
             font-weight: 600;
             font-size: 4em;
-            line-height: 97px;
+            // line-height: 67px;
             display: flex;
             align-items: center;
 
@@ -223,20 +260,22 @@ body {
     // max-height: 130px;
     .sub-section--1 {
       .values_container {
-        padding-top: 1.5rem;
+        padding-top: 1rem;
         .row {
           .sub__values {
             color: $white;
+            margin: 0;
+            padding: 0;
             span {
               font-weight: 500;
               font-size: 0.6em;
-              line-height: 17px;
+              // line-height: 17px;
             }
             p {
               font-family: "Raleway", sans-serif;
               font-weight: 200;
-              font-size: 2.5em;
-              line-height: 49px;
+              font-size: 2em;
+              // line-height: 49px;
             }
           }
         }
@@ -245,7 +284,57 @@ body {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .hero-section {
+    // margin: 0;
+    .hero-section-1 {
+      .hero-1 {
+        .sub_hero {
+          .herotext {
+            h1 {
+              font-size: 2.5em;
+            }
+            p {
+              font-size: 0.9em;
+            }
+            .hero_button {
+              width: max-content;
+              img {
+                color: $white;
+              }
+            }
+          }
+        }
+        .sub_hero_2 {
+          .heroimage {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    // .swapmoney_values{
+    //   .sub-section--1{
+    //     .values_container{
+    //       .row{
+    //         .sub__values{
+    //           span{
+
+    //           }
+    //           p{
+
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
+
+@media screen and (max-width: 991px) {
   .hero-section {
     // margin: 0;
     .hero-section-1 {
@@ -259,7 +348,7 @@ body {
               font-size: 15px;
             }
             .hero_button {
-              width: 100%;
+              width: max-content;
               img {
                 color: $white;
               }
@@ -270,6 +359,129 @@ body {
           .heroimage {
             img {
               width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+    .swapmoney_values{
+      .sub-section--1{
+        .values_container{
+          .row{
+            .sub__values{
+              span{
+                font-size: 0.3em;
+              }
+              p{
+                font-size: 1.3em;
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 984px) {
+  .hero-section {
+    // margin: 0;
+
+    .hero-section-1 {
+      .hero-1 {
+        .sub_hero {
+          .herotext {
+            h1 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 15px;
+            }
+            .hero_button {
+              width: max-content;
+              font-size: 0.7em;
+              img {
+                color: $white;
+              }
+            }
+          }
+        }
+        .sub_hero_2 {
+          .heroimage {
+            img {
+              // display: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .swapmoney_values{
+      .sub-section--1{
+        .values_container{
+          .row{
+            .sub__values{
+              span{
+                font-size: 0.3em;
+              }
+              p{
+                font-size:1.3em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-section {
+    // margin: 0;
+
+    .hero-section-1 {
+      .hero-1 {
+        .sub_hero {
+          .herotext {
+            h1 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 15px;
+            }
+            .hero_button {
+              width: max-content;
+              font-size: 0.7em;
+              img {
+                color: $white;
+              }
+            }
+          }
+        }
+        .sub_hero_2 {
+          .heroimage {
+            img {
+              // display: none;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .swapmoney_values{
+    .sub-section--1{
+      .values_container{
+        .row{
+          .sub__values{
+            span{
+              font-size: 0.3em;
+            }
+            p{
+              font-size: 1.3em;
             }
           }
         }
@@ -293,7 +505,7 @@ body {
               font-size: 15px;
             }
             .hero_button {
-              width: 100%;
+              width: max-content;
               font-size: 0.7em;
               img {
                 color: $white;
@@ -306,6 +518,23 @@ body {
             img {
               // display: none;
               width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .swapmoney_values{
+      .sub-section--1{
+        .values_container{
+          .row{
+            .sub__values{
+              span{
+                font-size: 0.7em;
+              }
+              p{
+                font-size: 1.7em;
+              }
             }
           }
         }
@@ -336,16 +565,16 @@ body {
             font-style: normal;
             font-weight: 200;
             font-size: 1em;
-            line-height: 170%;
+            // line-height: 170%;
             color: $white;
             text-align: justify;
             line-break: auto;
           }
           .learn-more {
             margin-top: 1rem;
-            background-color: #e5e5e5;
-            color: $bg_color;
-            border: none;
+            background-color: #e5e5e500;
+            color: $white;
+            border: 1px solid $white;
             padding: 1rem;
             border-radius: 7px;
           }
@@ -495,7 +724,7 @@ body {
 .our-partners {
   margin: 0;
 
-  background: #e5e5e5;
+  background: $white;
   // border-radius: 40%;
   .parabola_1,
   .parabola_2 {
@@ -522,7 +751,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 1.2em;
-        line-height: 160%;
+        // line-height: 160%;
       }
     }
 
@@ -590,6 +819,13 @@ body {
       img {
         width: 100%;
       }
+
+      // .sub-section{
+      //   .header-text{
+      //     h2{
+      //     }
+      //   }
+      // }
     }
   }
 }
@@ -650,7 +886,7 @@ body {
           font-style: normal;
           font-weight: 200;
           font-size: 1em;
-          line-height: 170%;
+          // line-height: 170%;
           text-align: justify;
         }
       }
@@ -936,7 +1172,7 @@ body {
           font-style: normal;
           font-weight: bold;
           font-size: 2em;
-          line-height: 61px;        
+          // line-height: 61px;        
         }
         p {
           margin-top: 1rem;
@@ -944,14 +1180,14 @@ body {
           font-style: normal;
           font-weight: 200;
           font-size: 1em;
-          line-height: 170%;
+          // line-height: 170%;
           text-align: justify;        
         }
         .learn-more {
           margin-top: 1rem;
-          background-color: #e5e5e5;
-          color: $bg_color;
-          border: none;
+          background-color: #e5e5e500;
+          color: $white;
+          border: 1px solid $white;
           padding: 1rem;
           border-radius: 7px;
         }
@@ -1004,7 +1240,7 @@ body {
     .sub-section-1 {
       margin-top: 3rem;
       .card-wrap {
-        .swap-cardds {
+        .swap-cardds-1 {
           box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
           border-radius: 20px;
           .card-body {
@@ -1012,13 +1248,13 @@ body {
             .custom-title {
               font-family: "Raleway", sans-serif;
               font-style: normal;
-              font-weight: 600;
-              font-size: 20px;
+              font-weight: 500;
+              font-size: 1.3em;
             }
             p {
               font-style: normal;
               font-weight: normal;
-              font-size: 15px;
+              font-size: 1em;
             }
             .cards-button {
               margin-top: 1rem;
@@ -1029,6 +1265,122 @@ body {
               border-radius: 7px;
               border: none;
               color: #f9fafb;
+              font-size: 0.5em;
+              padding: 1rem;
+            }
+            .cards-button:hover {
+              margin-top: 1rem;
+              background: #2e9dc2;
+              /* Shadow/02 */
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);
+              border-radius: 7px;
+              border: none;
+              color: #f9fafb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.win-with-us {
+  margin: 0;
+
+  background-color: #e5e5e5;
+  .sub-section {
+    padding: 4rem;
+    h2 {
+      font-weight: bold;
+    }
+    .sub-section-1 {
+      margin-top: 3rem;
+      .card-wrap {
+        .swap-cardds-2 {
+          box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+          border-radius: 20px;
+          .card-body {
+            padding-bottom: 4rem;
+            .custom-title {
+              font-family: "Raleway", sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1.3em;
+            }
+            p {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 1em;
+            }
+            .cards-button {
+              margin-top: 1rem;
+              background: $bg_color;
+              /* Shadow/02 */
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);
+              border-radius: 7px;
+              border: none;
+              color: #f9fafb;
+              font-size: 0.5em;
+              padding: 1rem;
+            }
+            .cards-button:hover {
+              margin-top: 1rem;
+              background: #2e9dc2;
+              /* Shadow/02 */
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);
+              border-radius: 7px;
+              border: none;
+              color: #f9fafb;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.win-with-us {
+  margin: 0;
+
+  background-color: #e5e5e5;
+  .sub-section {
+    padding: 5rem 0rem 5rem 0rem;
+    h2 {
+      font-weight: bold;
+    }
+    .sub-section-1 {
+      margin-top: 3rem;
+      .card-wrap {
+        .swap-cardds-3 {
+          box-shadow: 8px 44px 60px rgba(49, 49, 62, 0.12);
+          border-radius: 20px;
+          .card-body {
+            padding-bottom: 4rem;
+            .custom-title {
+              font-family: "Raleway", sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1.3em;
+            }
+            p {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 1em;
+            }
+            .cards-button {
+              margin-top: 1rem;
+              background: $bg_color;
+              /* Shadow/02 */
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);
+              border-radius: 7px;
+              border: none;
+              color: #f9fafb;
+              font-size: 0.5em;
+              padding: 1rem;
             }
             .cards-button:hover {
               margin-top: 1rem;
@@ -1056,7 +1408,7 @@ body {
       align-items: center;
       .sub-section-1 {
         .card-wrap {
-          .swap-cardds {
+          .swap-cardds-1, .swap-cardds-2, .swap-cardds-3 {
             margin-top: 4rem;
             // img {
             // }
@@ -1096,7 +1448,7 @@ body {
           font-style: normal;
           font-weight: 300;
           font-size: 0.8em;
-          line-height: 150%;
+          // line-height: 150%;
         }
       }
       .swap-footer-2 {
@@ -1116,7 +1468,7 @@ body {
               font-style: normal;
               font-weight: 300;
               font-size: 0.8em;
-              line-height: 19px;
+              // line-height: 19px;
             }
             a {
               text-decoration: none;
@@ -1138,7 +1490,7 @@ body {
               font-style: normal;
               font-weight: 300;
               font-size: 0.8em;
-              line-height: 19px;
+              // line-height: 19px;
             }
             a {
               text-decoration: none;
@@ -1161,7 +1513,7 @@ body {
               font-style: normal;
               font-weight: 300;
               font-size: 0.8em;
-              line-height: 19px;
+              // line-height: 19px;
             }
             a {
               text-decoration: none;
