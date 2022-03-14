@@ -48,7 +48,7 @@ body {
 }
 
 .navbar_wrapper .sub-header .firstContainer a img {
-  width: 100%;
+  width: 80%;
 }
 
 .navbar_wrapper .sub-header .firstContainer .navbar-toggler .navbar-toggler-icon {
@@ -56,6 +56,10 @@ body {
 }
 
 .navbar_wrapper .sub-header .firstContainer .collapse ul li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 22px;
   color: #FFFFFF;
 }
 
@@ -73,15 +77,22 @@ body {
 }
 
 .navbar_wrapper .sub-header .firstContainer .collapse .loginButton a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 22px;
   color: #FFFFFF;
+  margin-right: 2rem;
 }
 
 .navbar_wrapper .sub-header .firstContainer .collapse .loginButton button {
   background-color: #FFFFFF;
   border: none;
   color: #00AFF0;
-  width: 80%;
+  width: 100%;
   font-size: 0.8em;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .navbar_wrapper .sub-header .firstContainer .collapse .loginButton button:hover {
@@ -93,11 +104,11 @@ body {
 }
 
 .hero-section {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 .hero-section .hero-section-1 .hero-1 {
-  padding: 4rem;
+  padding: 4rem 4rem 0rem 4rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -114,8 +125,9 @@ body {
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 63px;
+  font-weight: 600;
+  font-size: 4em;
+  line-height: 97px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,21 +138,23 @@ body {
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   color: #FFFFFF;
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 300;
+  font-size: 0.9em;
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   background-color: #00AFF0;
   color: #FFFFFF;
   border: none;
   padding: 1rem;
   border-radius: 8px;
-  width: 60%;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
@@ -148,13 +162,15 @@ body {
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button:hover {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   background-color: #0ba2da;
   color: #FFFFFF;
   border: none;
   padding: 1rem;
   border-radius: 8px;
-  width: 50%;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button:hover img {
@@ -183,6 +199,41 @@ body {
 
 .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage .Ellipse {
   width: 50%;
+}
+
+.hero-section .swapmoney_values {
+  margin: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  width: 100%;
+}
+
+.hero-section .swapmoney_values .sub-section--1 .values_container {
+  padding-top: 1.5rem;
+}
+
+.hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values {
+  color: #FFFFFF;
+}
+
+.hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+  font-weight: 500;
+  font-size: 0.6em;
+  line-height: 17px;
+}
+
+.hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 2.5em;
+  line-height: 49px;
 }
 
 @media screen and (max-width: 992px) {
@@ -222,39 +273,6 @@ body {
   }
 }
 
-.swapmoney_values {
-  margin: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: rgba(255, 255, 255, 0.3);
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  width: 100%;
-}
-
-.swapmoney_values .sub-section--1 .values_container {
-  padding-top: 1.5rem;
-}
-
-.swapmoney_values .sub-section--1 .values_container .row .sub__values {
-  color: #FFFFFF;
-}
-
-.swapmoney_values .sub-section--1 .values_container .row .sub__values span {
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.swapmoney_values .sub-section--1 .values_container .row .sub__values p {
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
-  font-size: 2em;
-}
-
 .about-us {
   margin-top: 0;
   padding-top: 6rem;
@@ -282,8 +300,10 @@ body {
 }
 
 .about-us .sub_section-2 .about-us-row .about-text .about-us__1 p {
-  font-weight: 0;
+  font-style: normal;
+  font-weight: 200;
   font-size: 1em;
+  line-height: 170%;
   color: #FFFFFF;
   text-align: justify;
   line-break: auto;
@@ -428,7 +448,8 @@ body {
   background: #e5e5e5;
 }
 
-.our-partners .parabola_1 img, .our-partners .parabola_2 img {
+.our-partners .parabola_1 img,
+.our-partners .parabola_2 img {
   width: 100%;
 }
 
@@ -513,7 +534,8 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .our-partners .parabola_1 img, .our-partners .parabola_2 img {
+  .our-partners .parabola_1 img,
+  .our-partners .parabola_2 img {
     width: 100%;
   }
 }
@@ -552,14 +574,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .why-swap-money .sub-section .sub-section-1 .why-swap-text p {
   margin-top: 2rem;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 200;
   font-size: 1em;
+  line-height: 170%;
   text-align: justify;
 }
 
@@ -835,8 +858,21 @@ body {
   color: #FFFFFF;
 }
 
+.why-swap-money-2 .sub-section .sub-section-2 .why-swap-text h2 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 61px;
+}
+
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text p {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1em;
+  line-height: 170%;
   text-align: justify;
 }
 
@@ -980,8 +1016,9 @@ body {
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-1 p {
   color: #FFFFFF;
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 150%;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 {
@@ -1006,8 +1043,9 @@ body {
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-companies .footer-links p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-companies .footer-links a {
@@ -1029,8 +1067,9 @@ body {
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-products .footer-links p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-products .footer-links a {
@@ -1052,8 +1091,9 @@ body {
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-offers .footer-links p {
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 19px;
 }
 
 .swap-money-footer .sub-section .sub-section-1 .swap-footer-2 .footer-offers .footer-links a {
