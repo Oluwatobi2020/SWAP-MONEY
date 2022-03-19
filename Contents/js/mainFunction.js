@@ -30,7 +30,7 @@ function addObserver(el, options){
     observer.observe(el)
 }
 // Example usages:
-scrollTrigger('.girl-image')
+scrollTrigger('girl-image')
 
 scrollTrigger('.scroll-reveal', {
     rootMargin: '-200px',
@@ -45,3 +45,4 @@ scrollTrigger('.loader', {
         }, 1000)
     }
 })
+
