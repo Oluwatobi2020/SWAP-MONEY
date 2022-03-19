@@ -410,7 +410,7 @@ body {
 }
 
 .about-us {
-  margin-top: 0;
+  margin: 0;
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
@@ -524,7 +524,7 @@ body {
     font-size: 1em;
   }
   .about-us .sub_section-2 .about-us-row .about-image {
-    visibility: hidden;
+    display: none;
   }
   .about-us .sub_section-2 .about-us-row .about-image img {
     width: 100%;
@@ -741,6 +741,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .our-partners {
+    margin: 0;
+  }
   .our-partners .parabola_1 img,
   .our-partners .parabola_2 img {
     width: 100%;
@@ -789,6 +792,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .our-partners {
+    margin: 0;
+  }
   .our-partners .parabola_1 img,
   .our-partners .parabola_2 img {
     width: 100%;
@@ -1240,8 +1246,9 @@ body {
             justify-content: center;
   }
   .why-swap-money-2 .sub-section .sub-section-2 {
-    margin-left: -4rem;
-    margin-right: -4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
     width: 70%;
@@ -1609,6 +1616,9 @@ body {
 }
 
 @media screen and (max-width: 420px) {
+  .swap-money-footer {
+    margin: 0;
+  }
   .swap-money-footer .sub-section-1 {
     padding: 0;
     text-align: left;
@@ -1634,6 +1644,7 @@ body {
 }
 
 .footer-base {
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1663,6 +1674,7 @@ body {
 
 @media screen and (max-width: 420px) {
   .footer-base {
+    margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

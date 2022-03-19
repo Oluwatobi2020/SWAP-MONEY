@@ -593,7 +593,7 @@ body {
 
 
 .about-us {
-  margin-top: 0;
+  margin: 0;
   padding-top: 6rem;
   padding-bottom: 6rem;
   .sub_section-2 {
@@ -700,7 +700,7 @@ body {
         }
         .about-image {
           // width: 50%;
-          visibility: hidden;
+          display: none;
           img {
             width: 100%;
             .sub-image {
@@ -914,6 +914,7 @@ body {
 
 @media screen and(max-width:576px) {
   .our-partners {
+    margin: 0;
     .parabola_1,
     .parabola_2 {
       img {
@@ -962,6 +963,7 @@ body {
 
 @media screen and(max-width:576px) {
   .our-partners {
+    margin: 0;
     .parabola_1,
     .parabola_2 {
       img {
@@ -1471,8 +1473,9 @@ body {
       display: block;
       justify-content: center;
       .sub-section-2 {
-        margin-left: -4rem;
-        margin-right: -4rem;
+        justify-content: center;
+        // margin-left: -4rem;
+        // margin-right: -4rem;
         .why-swap-text {
           width: 70%;
           margin-top: 2rem;
@@ -1876,6 +1879,7 @@ body {
 
 @media screen and (max-width: 420px) {
   .swap-money-footer{
+    margin: 0;
     .sub-section-1{
       padding: 0;
       text-align: left;
@@ -1923,6 +1927,7 @@ body {
 }
 
 .footer-base {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1951,6 +1956,7 @@ body {
 
 @media screen and (max-width:420px) {
   .footer-base{
+    margin: 0;
     flex-direction: column;
     padding: 1rem;
     align-items: flex-start;
