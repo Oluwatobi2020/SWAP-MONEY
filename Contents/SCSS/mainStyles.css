@@ -13,7 +13,7 @@ body {
 }
 
 .navbar_wrapper {
-  width: 700px;
+  width: 100%;
 }
 
 .navbar_wrapper .sub-header {
@@ -31,7 +31,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 14px 22px;
+  padding: 0.5rem;
   left: 100px;
   right: 100px;
   top: 30px;
@@ -59,7 +59,7 @@ body {
 .navbar_wrapper .sub-header .firstContainer .collapse ul li a {
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #FFFFFF;
   margin-right: 2rem;
 }
@@ -80,7 +80,7 @@ body {
 .navbar_wrapper .sub-header .firstContainer .collapse .loginButton a {
   font-style: normal;
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #FFFFFF;
   margin-right: 2rem;
 }
@@ -146,8 +146,12 @@ body {
   }
 }
 
-@media screen and (max-width: 1216px) {
+@media screen and (min-width: 1200px) and (max-width: 1427px) {
+  .navbar_wrapper {
+    width: 100%;
+  }
   .navbar_wrapper .sub-header {
+    padding: 0.5rem;
     width: 84%;
   }
   .navbar_wrapper .sub-header .firstContainer .navbar-brand {
@@ -160,7 +164,53 @@ body {
   .navbar_wrapper .sub-header .firstContainer .navbar-brand img {
     width: 50%;
   }
-  .navbar_wrapper .sub-header .firstContainer .navbar-collapse .loginButton .btn {
+  .navbar_wrapper .sub-header .firstContainer .collapse ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    margin-right: 2rem;
+  }
+  .navbar_wrapper .sub-header .firstContainer .collapse .loginButton .btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .navbar_wrapper {
+    width: 100%;
+  }
+  .navbar_wrapper .sub-header {
+    padding: 0.5rem;
+    width: 84%;
+  }
+  .navbar_wrapper .sub-header .firstContainer .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar_wrapper .sub-header .firstContainer .navbar-brand img {
+    width: 50%;
+  }
+  .navbar_wrapper .sub-header .firstContainer .collapse ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.53em;
+    color: #FFFFFF;
+    margin-right: 2rem;
+  }
+  .navbar_wrapper .sub-header .firstContainer .collapse .loginButton a {
+    font-size: 0.53em;
+  }
+  .navbar_wrapper .sub-header .firstContainer .collapse .loginButton .btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -168,7 +218,7 @@ body {
 }
 
 .hero-section {
-  margin-top: 5rem;
+  padding-top: 5rem;
   background-image: url("../Images/Background gradient with shape.png");
 }
 
@@ -255,8 +305,8 @@ body {
           justify-content: center;
 }
 
-.hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage .rotating-globe {
-  width: 70%;
+.hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
+  width: 80%;
 }
 
 .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage .Ellipse {
@@ -336,9 +386,9 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1427px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
     font-size: 0.9em;
@@ -352,43 +402,16 @@ body {
     color: #FFFFFF;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    width: 100%;
+    width: 70%;
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (min-width: 975px) and (max-width: 1200px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
-    font-size: 30px;
+    font-size: 3.2em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
-    font-size: 15px;
-  }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-    font-size: 0.7em;
-  }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
-    color: #FFFFFF;
-  }
-  .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    width: 100%;
-  }
-  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
-    font-size: 0.3em;
-  }
-  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
-    font-size: 1.3em;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
-    font-size: 40px;
-  }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
-    font-size: 15px;
+    font-size: 0.8em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
     width: -webkit-max-content;
@@ -399,7 +422,7 @@ body {
     color: #FFFFFF;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    width: 100%;
+    width: 70%;
   }
   .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
     font-size: 0.3em;

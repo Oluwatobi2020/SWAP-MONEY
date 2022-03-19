@@ -18,7 +18,7 @@ body {
 }
 
 .navbar_wrapper {
-  width: 700px;
+  width: 100%;
   .sub-header {
     // margin-top: 5rem;
     // overflow: hidden;
@@ -29,7 +29,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 22px;
+    padding: 0.5rem;
     left: 100px;
     right: 100px;
     top: 30px;
@@ -61,7 +61,7 @@ body {
             a {
               font-style: normal;
               font-weight: 400;
-              font-size: 1em;
+              font-size: 0.8em;
               // line-height: 22px;
               color: $white;
               margin-right: 2rem;
@@ -84,7 +84,7 @@ body {
           a {
             font-style: normal;
             font-weight: 400;
-            font-size: 0.9em;
+            font-size: 0.8em;
             // line-height: 22px;
             color: $white;
             margin-right: 2rem;
@@ -164,9 +164,11 @@ body {
   }
 }
 
-@media screen and(max-width: 1216px) {
+@media screen and(min-width: 1200px) and (max-width: 1427px) {
   .navbar_wrapper{
+    width: 100%;
     .sub-header{
+      padding: 0.5rem;
       width: 84%;
       // margin-left: 5rem;      
       .firstContainer{
@@ -182,15 +184,75 @@ body {
         // .navbar-toggler{
 
         // }
-        .navbar-collapse{
-          // .navbar-nav{
-
-          // }
+        .collapse{
+          ul{
+            li{
+              a{
+              font-style: normal;
+              font-weight: 400;
+              font-size: 0.7em;
+              // line-height: 22px;
+              color: $white;
+              margin-right: 2rem;
+              }
+            }
+          }
           .loginButton{
             // a{
 
             // }
             .btn{
+              padding-left: 2rem;
+              padding-right: 2rem;
+              width: max-content;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width:992px) and (max-width: 1200px) {
+  .navbar_wrapper{
+    width: 100%;
+    .sub-header{
+      padding: 0.5rem;
+      width: 84%;
+      // margin-left: 5rem;      
+      .firstContainer{
+        .navbar-brand{
+          display: flex;
+          padding: 0;
+          margin: 0;
+          img{
+            width: 50%;
+          }
+        }
+
+        // .navbar-toggler{
+
+        // }
+        .collapse{
+          ul{
+            li{
+              a{
+              font-style: normal;
+              font-weight: 400;
+              font-size: 0.53em;
+              // line-height: 22px;
+              color: $white;
+              margin-right: 2rem;
+              }
+            }
+          }
+          .loginButton{
+            a{
+              font-size: 0.53em;
+            }
+            .btn{
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
               width: max-content;
             }
           }
@@ -202,7 +264,7 @@ body {
 
 
 .hero-section {
-  margin-top: 5rem;
+  padding-top: 5rem;
   background-image: url("../Images/Background\ gradient\ with\ shape.png");
   .hero-section-1 {
     .hero-1 {
@@ -274,8 +336,8 @@ body {
           justify-content: center;
           // border: 1px solid greenyellow;
 
-          .rotating-globe {
-            width: 70%;
+          img {
+            width: 80%;
           }
           .Ellipse {
             width: 50%;
@@ -384,7 +446,7 @@ body {
   }
 };
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1427px) {
   .hero-section {
     // margin: 0;
     .hero-section-1 {
@@ -392,7 +454,7 @@ body {
         .sub_hero {
           .herotext {
             h1 {
-              font-size: 2.5em;
+              font-size: 3.5em;
             }
             p {
               font-size: 0.9em;
@@ -408,7 +470,7 @@ body {
         .sub_hero_2 {
           .heroimage {
             img {
-              width: 100%;
+              width: 70%;
             }
           }
         }
@@ -434,23 +496,74 @@ body {
   }
 }
 
-@media screen and (max-width: 984px) {
+// @media screen and (max-width: 984px) {
+//   .hero-section {
+//     // margin: 0;
+
+//     .hero-section-1 {
+//       .hero-1 {
+//         .sub_hero {
+//           .herotext {
+//             h1 {
+//               font-size: 30px;
+//             }
+//             p {
+//               font-size: 15px;
+//             }
+//             .hero_button {
+//               width: max-content;
+//               font-size: 0.7em;
+//               img {
+//                 color: $white;
+//               }
+//             }
+//           }
+//         }
+//         .sub_hero_2 {
+//           .heroimage {
+//             img {
+//               // display: none;
+//               width: 100%;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .swapmoney_values{
+//       .sub-section--1{
+//         .values_container{
+//           .row{
+//             .sub__values{
+//               span{
+//                 font-size: 0.3em;
+//               }
+//               p{
+//                 font-size:1.3em;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (min-width: 975px) and (max-width:1200px) {
   .hero-section {
     // margin: 0;
-
     .hero-section-1 {
       .hero-1 {
         .sub_hero {
           .herotext {
             h1 {
-              font-size: 30px;
+              font-size: 3.2em;
             }
             p {
-              font-size: 15px;
+              font-size: 0.8em;
             }
             .hero_button {
               width: max-content;
-              font-size: 0.7em;
               img {
                 color: $white;
               }
@@ -460,58 +573,7 @@ body {
         .sub_hero_2 {
           .heroimage {
             img {
-              // display: none;
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-
-    .swapmoney_values{
-      .sub-section--1{
-        .values_container{
-          .row{
-            .sub__values{
-              span{
-                font-size: 0.3em;
-              }
-              p{
-                font-size:1.3em;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .hero-section {
-    // margin: 0;
-    .hero-section-1 {
-      .hero-1 {
-        .sub_hero {
-          .herotext {
-            h1 {
-              font-size: 40px;
-            }
-            p {
-              font-size: 15px;
-            }
-            .hero_button {
-              width: max-content;
-              img {
-                color: $white;
-              }
-            }
-          }
-        }
-        .sub_hero_2 {
-          .heroimage {
-            img {
-              width: 100%;
+              width: 70%;
             }
           }
         }
