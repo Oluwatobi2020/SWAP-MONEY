@@ -1566,17 +1566,20 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1300px) {
   .why-swap-money-2 {
     margin: 0;
 
     .sub-section {
       .sub-section-2 {
-        // .why-swap-text {
-        // }
+
+        .why-swap-text {
+          width: 50%;
+        }
         .why-swap-text-2 {
           margin-top: 2rem;
           img {
+            margin-left: 2rem;
             width: 100%;
           }
         }
