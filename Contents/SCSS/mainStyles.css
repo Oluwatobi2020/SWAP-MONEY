@@ -1197,10 +1197,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 6rem;
+  padding-bottom: 6rem;
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 {
-  padding-bottom: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem 6rem 6rem 6rem;
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
@@ -1210,12 +1215,9 @@ body {
   border-radius: 15px;
   color: #3D4094;
   text-align: justify;
-  padding: 30px 30px 0px 30px;
-  margin-right: 4rem;
+  padding: 2rem;
   margin-bottom: 0;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
+  width: 40%;
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text h2 {
@@ -1256,8 +1258,7 @@ body {
 }
 
 .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text-2 img {
-  width: 453px;
-  height: 858px;
+  width: 70%;
 }
 
 @media screen and (max-width: 420px) {
@@ -1269,16 +1270,17 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0;
   }
   .why-swap-money-2 .sub-section .sub-section-2 {
+    padding: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
     width: 70%;
-    margin-top: 2rem;
-    margin-left: 4.4rem;
+    padding: 1.5rem;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text h2 {
     font-size: 1.5em;
@@ -1529,9 +1531,9 @@ body {
 }
 
 .swap-money-footer .sub-section-1 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 5rem 2rem 3rem 7rem;
 }
 
@@ -1548,7 +1550,7 @@ body {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 {
@@ -1578,7 +1580,7 @@ body {
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .footer-links p {
   font-style: normal;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .footer-links a {
@@ -1605,7 +1607,7 @@ body {
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .footer-links p {
   font-style: normal;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .footer-links a {
@@ -1632,7 +1634,7 @@ body {
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .footer-links p {
   font-style: normal;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .footer-links a {

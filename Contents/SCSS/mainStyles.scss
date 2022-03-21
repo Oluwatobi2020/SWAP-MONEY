@@ -1465,22 +1465,24 @@ body {
     .sub-section {
       display: flex;
       justify-content: center;
-    // padding-left: 6rem;
+      padding-left: 6rem;
     // padding-right: 4rem;
-    // padding-bottom: 6rem;
+    padding-bottom: 6rem;
     // margin-bottom: 6rem;
     .sub-section-2 {
-      padding-bottom: 6rem;
+      justify-content: center;
+      padding: 3rem 6rem 6rem 6rem;
       .why-swap-text {        
         background: #FFFFFF;
         box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
         border-radius: 15px;
         color: $pri_purple;
         text-align: justify;
-        padding: 30px 30px 0px 30px;
-        margin-right: 4rem;
+        padding: 2rem;
+        // padding: 30px 30px 0px 30px;
+        // margin-right: 4rem;
         margin-bottom: 0;
-        width: max-content;
+        width: 40%;
         h2{
           font-family: "Raleway", sans-serif;
           font-style: normal;
@@ -1518,8 +1520,9 @@ body {
       }
       .why-swap-text-2 {
         img {
-        width: 453px;
-        height: 858px;
+          width: 70%;
+        // width: 453px;
+        // height: 858px;
         }
       }
     }
@@ -1534,14 +1537,17 @@ body {
     .sub-section {
       display: block;
       justify-content: center;
+      padding: 0;
       .sub-section-2 {
+        padding: 0;
         justify-content: center;
         // margin-left: -4rem;
         // margin-right: -4rem;
         .why-swap-text {
           width: 70%;
-          margin-top: 2rem;
-          margin-left: 4.4rem;
+          padding: 1.5rem;
+          // margin-top: 2rem;
+          // margin-left: 4.4rem;
           h2{
             font-size: 1.5em;
           }
@@ -1839,7 +1845,7 @@ body {
   .sub-section-1 {
     // border: 1px solid green;
     // align-items: flex-end;
-    justify-content: center;
+    justify-content: space-between;
     padding: 5rem 2rem 3rem 7rem ;
       .swap-footer-1 {
         // border: 1px solid red;
@@ -1852,7 +1858,7 @@ body {
         color: $white;
         font-style: normal;
         font-weight: 300;
-        font-size: 1em;
+        font-size: 0.9em;
         // line-height: 150%;
       }
     }
@@ -1877,7 +1883,7 @@ body {
             p {
               font-style: normal;
               font-weight: 300;
-              font-size: 1em;
+              font-size: 0.9em;
               // line-height: 19px;
             }
             a {
@@ -1900,7 +1906,7 @@ body {
             p {
               font-style: normal;
               font-weight: 300;
-              font-size: 1em;
+              font-size: 0.9em;
               // line-height: 19px;
             }
             a {
@@ -1924,7 +1930,7 @@ body {
             p {
               font-style: normal;
               font-weight: 300;
-              font-size: 1em;
+              font-size: 0.9em;
               // line-height: 19px;
             }
             a {
