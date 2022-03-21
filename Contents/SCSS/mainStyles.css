@@ -843,29 +843,13 @@ body {
 
 .why-swap-money .sub-section .sub-section-1 .girl-image {
   margin-right: 2rem;
-  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, transform 2s;
-  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
 }
 
 .why-swap-money .sub-section .sub-section-1 .girl-image img {
   width: 100%;
 }
 
-.why-swap-money .sub-section .sub-section-1 .girl-image:hover {
-  margin-right: 2rem;
-  width: 300px;
-  height: 300px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.why-swap-money .sub-section .sub-section-1 .girl-image:hover img {
-  width: 100%;
-}
-
-.why-swap-money .sub-section .sub-section-1 .why-swap-text {
+.why-swap-money .sub-section .why-swap-text {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
@@ -875,21 +859,21 @@ body {
   margin-left: 2rem;
 }
 
-.why-swap-money .sub-section .sub-section-1 .why-swap-text h2 {
+.why-swap-money .sub-section .why-swap-text h2 {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2em;
 }
 
-.why-swap-money .sub-section .sub-section-1 .why-swap-text p {
+.why-swap-money .sub-section .why-swap-text p {
   margin-top: 2rem;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
 }
 
-.why-swap-money .sub-section .sub-section-2 {
+.why-swap-money .sub-section-2 {
   padding: 4rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -900,7 +884,7 @@ body {
   width: 100%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 {
+.why-swap-money .sub-section-2 .swap-benefits-1 {
   width: 100%;
   max-width: 268px;
   max-height: 122px;
@@ -920,7 +904,7 @@ body {
   border-radius: 10px;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 .swap-card {
+.why-swap-money .sub-section-2 .swap-benefits-1 .swap-card {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -931,30 +915,30 @@ body {
   padding: 1rem;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 .swap-card img {
+.why-swap-money .sub-section-2 .swap-benefits-1 .swap-card img {
   width: 60%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 .swap-card .swap-text {
+.why-swap-money .sub-section-2 .swap-benefits-1 .swap-card .swap-text {
   width: 100%;
   color: #FFFFFF;
   text-align: left;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 .swap-card .swap-text span {
+.why-swap-money .sub-section-2 .swap-benefits-1 .swap-card .swap-text span {
   font-style: normal;
   font-weight: bold;
   font-size: 0.7em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-1 .swap-card .swap-text p {
+.why-swap-money .sub-section-2 .swap-benefits-1 .swap-card .swap-text p {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 {
+.why-swap-money .sub-section-2 .swap-benefits-2 {
   width: 100%;
   max-width: 384px;
   max-height: 122px;
@@ -975,7 +959,7 @@ body {
   border-radius: 10px;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 .swap-card {
+.why-swap-money .sub-section-2 .swap-benefits-2 .swap-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -986,29 +970,29 @@ body {
   width: 100%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 .swap-card img {
+.why-swap-money .sub-section-2 .swap-benefits-2 .swap-card img {
   width: 60%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 .swap-card .swap-text {
+.why-swap-money .sub-section-2 .swap-benefits-2 .swap-card .swap-text {
   color: #FFFFFF;
   text-align: left;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 .swap-card .swap-text span {
+.why-swap-money .sub-section-2 .swap-benefits-2 .swap-card .swap-text span {
   font-style: normal;
   font-weight: bold;
   font-size: 0.7em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-2 .swap-card .swap-text p {
+.why-swap-money .sub-section-2 .swap-benefits-2 .swap-card .swap-text p {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 {
+.why-swap-money .sub-section-2 .swap-benefits-3 {
   width: 100%;
   max-width: 197px;
   max-height: 122px;
@@ -1029,7 +1013,7 @@ body {
   border-radius: 10px;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 .swap-card {
+.why-swap-money .sub-section-2 .swap-benefits-3 .swap-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1040,29 +1024,29 @@ body {
   width: 100%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 .swap-card img {
+.why-swap-money .sub-section-2 .swap-benefits-3 .swap-card img {
   width: 60%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 .swap-card .swap-text {
+.why-swap-money .sub-section-2 .swap-benefits-3 .swap-card .swap-text {
   color: #FFFFFF;
   text-align: left;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 .swap-card .swap-text span {
+.why-swap-money .sub-section-2 .swap-benefits-3 .swap-card .swap-text span {
   font-style: normal;
   font-weight: bold;
   font-size: 0.7em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-3 .swap-card .swap-text p {
+.why-swap-money .sub-section-2 .swap-benefits-3 .swap-card .swap-text p {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 {
+.why-swap-money .sub-section-2 .swap-benefits-4 {
   width: 100%;
   max-width: 417px;
   max-height: 122px;
@@ -1083,7 +1067,7 @@ body {
   border-radius: 10px;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 .swap-card {
+.why-swap-money .sub-section-2 .swap-benefits-4 .swap-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1094,22 +1078,22 @@ body {
   width: 100%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 .swap-card img {
+.why-swap-money .sub-section-2 .swap-benefits-4 .swap-card img {
   width: 60%;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 .swap-card .swap-text {
+.why-swap-money .sub-section-2 .swap-benefits-4 .swap-card .swap-text {
   color: #FFFFFF;
   text-align: left;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 .swap-card .swap-text span {
+.why-swap-money .sub-section-2 .swap-benefits-4 .swap-card .swap-text span {
   font-style: normal;
   font-weight: bold;
   font-size: 0.7em;
 }
 
-.why-swap-money .sub-section .sub-section-2 .swap-benefits-4 .swap-card .swap-text p {
+.why-swap-money .sub-section-2 .swap-benefits-4 .swap-card .swap-text p {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
