@@ -755,9 +755,9 @@ body {
             p{
               font-size: 1em;
             }
-            .learn-more{
+            // .learn-more{
 
-            }
+            // }
           }
         }
         .about-image {
@@ -1340,47 +1340,47 @@ body {
         .swap-benefits-1 {
           margin-top: 2rem;
           margin-left: 2rem;
-          .swap-card {
-            .icon {
-              img {
-              }
-            }
-            .swap-text {
-            }
-          }
+          // .swap-card {
+          //   .icon {
+          //     img {
+          //     }
+          //   }
+          //   .swap-text {
+          //   }
+          // }
         }
         .swap-benefits-2 {
           margin-top: 2rem;
-          .swap-card {
-            .icon {
-              img {
-              }
-            }
-            .swap-text {
-            }
-          }
+          // .swap-card {
+          //   .icon {
+          //     img {
+          //     }
+          //   }
+          //   .swap-text {
+          //   }
+          // }
         }
         .swap-benefits-3 {
           margin-top: 2rem;
-          .swap-card {
-            .icon {
-              img {
-              }
-            }
-            .swap-text {
-            }
-          }
+          // .swap-card {
+          //   .icon {
+          //     img {
+          //     }
+          //   }
+          //   .swap-text {
+          //   }
+          // }
         }
         .swap-benefits-4 {
           margin-top: 2rem;
-          .swap-card {
-            .icon {
-              img {
-              }
-            }
-            .swap-text {
-            }
-          }
+          // .swap-card {
+          //   .icon {
+          //     img {
+          //     }
+          //   }
+          //   .swap-text {
+          //   }
+          // }
         }
       }
     }
@@ -1594,8 +1594,9 @@ body {
   .sub-section {
     padding: 7em;
     h2 {
-      font-weight: bold;
-      font-size: 3em;
+      font-family: "Raleway", sans-serif;
+      font-weight: 650;
+      font-size: 2.5em;
       .colored-wins{
         color: $yellow2;
       }
@@ -1788,8 +1789,8 @@ body {
         .card-wrap {
           .swap-cardds-1, .swap-cardds-2, .swap-cardds-3 {
             margin-top: 4rem;
-            img {
-            }
+            // img {
+            // }
             .card-body {
               .custom-title {
                 .accordion{
@@ -1966,30 +1967,30 @@ body {
         display: flex;
         .swap-footer-2{
           flex-direction: column;
-          .footer-companies{
-            .companies{
+          // .footer-companies{
+          //   .companies{
 
-            }
-            .footer-links{
+          //   }
+          //   .footer-links{
 
-            }
-          }
-          .footer-products{
-            .products{
+          //   }
+          // }
+          // .footer-products{
+          //   .products{
 
-            }
-            .footer-links{
+          //   }
+          //   .footer-links{
 
-            }
-          }
-          .footer-offers{
-            .offers{
+          //   }
+          // }
+          // .footer-offers{
+          //   .offers{
 
-            }
-            .footer-links{
+          //   }
+          //   .footer-links{
 
-            }
-          }
+          //   }
+          // }
         }
       }
     }
@@ -2008,9 +2009,9 @@ body {
     .span {
       color: $white;
       font-size: 2em;
-      .fa-brands{
+      // .fa-brands{
 
-      }
+      // }
     }
   }
   .footer-copyright {
@@ -2032,9 +2033,9 @@ body {
     align-items: flex-start;
     .footer-base-circles{
       margin-bottom: 2rem;
-      .dot{
+      // .dot{
 
-      }
+      // }
     }
     .footer-copyright{
       p{

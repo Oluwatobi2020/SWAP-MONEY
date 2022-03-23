@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../SCSS/whatweoffer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>What we offer</title>
+  </head>
+  <body>
+    <!-- <header class="navbar navbar-expand-md navbar-dark bd-navbar navbar_wrapper">
+    </header> -->
+    <header class="navbar_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top sub-header">
+        <div class="container-fluid firstContainer">
+          <a class="navbar-brand" href="../../../home.html">
+            <img src="../../Images/SWAP MONEY LOGO (reversed) 1.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              class="bi"
+              fill="white"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              ></path>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 topNav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our Story
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  What We Offer
+                </a>
+                <!-- <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Work With Us
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact Us
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex loginButton">
+              <a class="nav-link active" aria-current="page" href="#">Login</a>
+
+              <button class="btn" type="">Join Now!</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="container-md hero-section-1">
+        <div class="row hero-1">
+          <div class="col-sm col-md-6 sub_hero">
+            <div class="herotext">
+              <h1 class="herotobeanimated">
+                What we <span class="offer">offer</span>
+              </h1>
+              <p>
+                SwapMoney is trusted and reliable Cross-border solutions for<br />
+                businesses. We have multiple benefits within our sleeves.
+              </p>
+              <div class="offer-coverage">
+                <h5>Our offers covers;</h5>
+                <p>Agent</p>
+                <p>Indiviual</p>
+                <p>Corporate SME</p>
+                <p>Agent</p>
+                <p>Emerging Market</p>
+              </div>
+              <div class="hero_icon">
+                <i class="fa fa-angle-double-down"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md-6 sub_hero_2">
+            <div class="heroimage">
+              <img src="../../Images/offersnew 1.png" alt="offersnew" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swapmoney_values">
+        <div class="sub-section--1">
+          <div class="container values_container">
+            <div class="row">
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/TeneceReal-removebg-preview.png"
+                  alt="Tenece"
+                />
+              </div>
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/ChrisReal-removebg-preview.png"
+                  alt="Cris"
+                />
+              </div>
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/GoldMoreReal-removebg-preview.png"
+                  alt="gold-more"
+                />
+              </div>
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/HavilahReal-removebg-preview.png"
+                  alt="havilah"
+                />
+              </div>
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/ItexReal-removebg-preview.png"
+                  alt="itex"
+                />
+              </div>
+              <div class="col-sm sub__values">
+                <img
+                  src="../../Images/JohnHoltReal-removebg-preview.png"
+                  alt="john-holt"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid after-hero-section">
+      <div class="row sub-section-1">
+        <div class="col-sm-10 individual-section">
+          <span class="sub-individual-text-1">Get started as an</span>
+          <h2>Individual</h2>
+          <p>
+            As professional migrants, working away from home and<br />
+            earning foreign currency, we make it easy for you to send<br />
+            money back home, our no commission fees make your<br />
+            money go even further.
+          </p>
+          <div class="money-transfers">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i> Receive
+              Money
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i> Send Money
+            </p>
+          </div>
+          <button class="get-started-button">
+            Get Started <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="col-sm-2 individual-image"></div>
+      </div>
+      <div class="row sub-section-2">
+        <div class="col-sm-10 individual-section">
+          <span class="sub-individual-text-1">Get started as a</span>
+          <h2>Corporate & SME</h2>
+          <p>
+            We serve multiple sectors across (but not limited to)<br />
+            Media, Manufacturing, Fintech, Banks, Marketing<br />
+            agencies, SMEs, Construction, Pharmaceuticals, Agro-<br />allied
+            industries, Entertainment, Professional Services,<br />
+            Supply Chain & Logistics Providers.
+          </p>
+          <div class="money-transfers">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Suppliers's Payments (Invoice based)
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i> Send Money
+            </p>
+          </div>
+          <div class="money-transfers-2">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i> Treasury
+              Payments
+            </p>
+          </div>
+          <button class="get-started-button">
+            Get Started <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="col-sm-2 corporate-image"></div>
+      </div>
+      <div class="row sub-section-3">
+        <div class="col-sm-10 individual-section">
+          <span class="sub-individual-text-1">Get started as an</span>
+          <h2>Agent</h2>
+          <p>
+            Our Agents manage transactions with customers on our<br />
+            behalf and get rewarded generously for this act of service
+          </p>
+          <div class="money-transfers">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Banking-as-a-Service
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Compliance-as-a-Service
+            </p>
+          </div>
+          <div class="money-transfers-1">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Agent Registration
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              International Remittances
+            </p>
+          </div>
+          <div class="money-transfers-2">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              White-label Offerings
+            </p>
+          </div>
+          <button class="get-started-button">
+            Get Started <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="col-sm-2 agent-image"></div>
+      </div>
+      <div class="row sub-section-4">
+        <div class="col-sm-10 individual-section">
+          <span class="sub-individual-text-1">Get started as an</span>
+          <h2>Emerging Market</h2>
+          <p>
+            We know how painful it is for businesses to have the resources<br />
+            to pay a supplier on time, or for individuals needing to pay<br />
+            medical bills, Tuition fees oversee but have challenges sourcing<br />
+            the FX.<br />
+            At Swapmoney we are positioned to bring these challenges<br />
+            faced by our emerging market members to an end one<br />
+            transaction at a time.
+          </p>
+          <div class="money-transfers">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Mortgage Payments
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Supplier Invoice Payments
+            </p>
+          </div>
+          <div class="money-transfers-1">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              School Fees
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Medical Bills
+            </p>
+          </div>
+          <div class="money-transfers-2">
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Multi Currency Wallet
+            </p>
+            <p>
+              <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              Treasury Payments
+            </p>
+          </div>
+          <button class="get-started-button">
+            Get Started <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="col-sm-2 emerging-market-image"></div>
+      </div>
+      <div class="row sub-section-5">
+        <div class="how-it-works">
+          <h2>How it <span>Works</span></h2>
+          <p>Follow the steps below to see how it works</p>
+        </div>
+        <div class="how-it-works-2">
+          <div class="circlesWithLines">
+            <img
+              src="../../Images/circles-with-lines (2).png"
+              alt="circles-with-lines"
+            />
+          </div>
+        </div>
+        <div class="how-it-works-3">
+          <div class="steps_1">
+            <i class="fa fa-pencil how-icons" aria-hidden="true"></i>
+            <p>Register as a member</p>
+          </div>
+          <div class="steps_1">
+            <i class="fa fa-shield how-icons" aria-hidden="true"></i>
+            <p>
+              Verify your<br />
+              identity
+            </p>
+          </div>
+          <div class="steps_1">
+            <i class="fa fa-usd how-icons" aria-hidden="true"></i>
+            <p>
+              Choose an<br />
+              amount to send
+            </p>
+          </div>
+          <div class="steps_1">
+            <i class="fa fa-university how-icons" aria-hidden="true"></i>
+            <p>Add recepient's bank details</p>
+          </div>
+          <div class="steps_1">
+            <i class="fa fa-credit-card how-icons" aria-hidden="true"></i>
+            <p>Pay for your transfer</p>
+          </div>
+          <div class="steps_1">
+            <i class="fa fa-thumbs-o-up how-icons" aria-hidden="true"></i>
+            <p>
+              Transfer<br />
+              completed
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid before-footer">
+      <div class="sub-section-1">
+        <h2>FAQ</h2>
+        <p>Choose among the questions below for clarification</p>
+      </div>
+      <div class="row sub-section-2">
+        <div class="accordion col-sm-8" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Who can use Swapmoney?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Corporates, SMEs, Agents and Individuals who have fx obligations
+                across trade, imports, exports, commerce and personal use cases
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What does Swapmoney offers?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+            <div class="accordion-body">
+              Corporates, SMEs, Agents and Individuals who have fx obligations
+              across trade, imports, exports, commerce and personal use cases
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Where is Swapmoney available?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+            <div class="accordion-body">
+              Corporates, SMEs, Agents and Individuals who have fx obligations
+              across trade, imports, exports, commerce and personal use cases
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                How can I do this thing with that thing?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+            <div class="accordion-body">
+              Corporates, SMEs, Agents and Individuals who have fx obligations
+              across trade, imports, exports, commerce and personal use cases
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                How long will each transactions take?
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+            <div class="accordion-body">
+              Corporates, SMEs, Agents and Individuals who have fx obligations
+              across trade, imports, exports, commerce and personal use cases
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                Who gets to oversee the transactions stage?
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+            <div class="accordion-body">
+              Corporates, SMEs, Agents and Individuals who have fx obligations
+              across trade, imports, exports, commerce and personal use cases
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="illustrations col-sm-4">
+          <img src="../../Images/FAQs.png" alt="FAQs" />
+        </div>
+      </div>
+
+      <div class="sub-section-3">
+        <div class="more-questions">
+          <h5>Still have questions?</h5>
+          <p>Can't find the answer you are looking for? Please chat our friendly team.</p>
+        </div>
+        <div class="contact-button">
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid swap-money-footer">
+      <div class="row sub-section-1">
+        <div class="col-sm-4 col-md-4 swap-footer-1">
+          <img
+            src="./Contents/Images/SWAP MONEY LOGO (reversed) 1.png"
+            alt=""
+          />
+          <p>
+            Swapmoney Ltd is a company registered in England and Wales
+            (registration number 10716785). Swapmoney is also a fully registered
+            Payment Service Provider with the UK Financial Conduct Authority
+            (FCA No: 916795) and HMRC (MLR No: XNML00000146773).
+          </p>
+        </div>
+        <div class="col-sm-8 col-md-8 about-footer">
+          <div class="swap-footer-2">
+            <div class="footer-companies">
+              <span class="companies">COMPANY</span>
+              <div class="footer-links">
+                <p><a href="">About Us</a></p>
+                <p><a href="">What we offer</a></p>
+                <p><a href="">Work with us</a></p>
+                <p><a href="">Contact us</a></p>
+                <p><a href="">Log in</a></p>
+                <p><a href="">Sign up</a></p>
+              </div>
+            </div>
+            <div class="footer-products">
+              <span class="products">PRODUCT</span>
+              <div class="footer-links">
+                <p><a href="">Individual</a></p>
+                <p><a href="">Business</a></p>
+                <p><a href="">WMargin Market</a></p>
+                <p><a href="">Agent</a></p>
+                <p><a href="">FAQ</a></p>
+              </div>
+            </div>
+            <div class="footer-offers">
+              <span class="offers">COMPANY</span>
+              <div class="footer-links">
+                <p><a href="">Text</a></p>
+                <p><a href="">Text</a></p>
+                <p><a href="">Text</a></p>
+                <p><a href="">Text</a></p>
+                <p><a href="">Text</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-base">
+      <div class="footer-base-circles">
+        <span style="font-size: 1.5em; color: white; margin-right: 2rem"
+          ><i class="fa-brands fa-twitter"></i
+        ></span>
+        <span style="font-size: 1.5em; color: white; margin-right: 2rem"
+          ><i class="fa-brands fa-instagram"></i
+        ></span>
+        <span style="font-size: 1.5em; color: white; margin-right: 2rem"
+          ><i class="fa-brands fa-facebook"></i
+        ></span>
+        <span style="font-size: 1.5em; color: white"
+          ><i class="fa-brands fa-linkedin"></i
+        ></span>
+      </div>
+      <div class="footer-copyright">
+        <p>Privacy & Policy</p>
+      </div>
+      <div class="footer-copyright">
+        <p>Term of Use</p>
+      </div>
+      <div class="footer-copyright">
+        <p>@2022 Swapmoney, All rights reserved.</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7292220f9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Contents/js/mainFunction.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  </body>
+</html>
