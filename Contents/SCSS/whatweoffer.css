@@ -187,6 +187,7 @@ body {
   .navbar_wrapper .sub-header {
     padding: 0.5rem;
     width: 84%;
+    margin-left: -1rem;
   }
   .navbar_wrapper .sub-header .firstContainer .navbar-brand {
     display: -webkit-box;
@@ -391,42 +392,135 @@ body {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1427px) {
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
-    font-size: 3.5em;
+  .hero-section-1 .hero-1 {
+    padding: 1rem 2rem 0rem 2rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+  .hero-section-1 .hero-1 .sub_hero .herotext {
+    text-align: left;
+  }
+  .hero-section-1 .hero-1 .sub_hero .herotext h1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5em;
+    color: #ffffff;
+  }
+  .hero-section-1 .hero-1 .sub_hero .herotext h1 .offer {
+    color: #FFF500;
+  }
+  .hero-section-1 .hero-1 .sub_hero .herotext p {
+    margin-top: 0.5rem;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
     font-size: 0.9em;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+  .hero-section-1 .hero-1 .sub_hero .herotext .offer-coverage {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
+  .hero-section-1 .hero-1 .sub_hero .herotext .offer-coverage h5 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
     color: #FFFFFF;
+    font-weight: 650;
+    font-size: 1em;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    width: 70%;
+  .hero-section-1 .hero-1 .sub_hero .herotext .offer-coverage p {
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.8em;
+  }
+  .hero-section-1 .hero-1 .sub_hero .herotext .hero_icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    width: 44px;
+    height: 44px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero-section-1 .hero-1 .sub_hero .herotext .hero_icon .fa-angle-double-down {
+    color: #FFFFFF;
+    font-size: 1rem;
+  }
+  .hero-section-1 .hero-1 .sub_hero_2 .heroimage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
+    width: 100%;
+  }
+  .swapmoney_values {
+    margin: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(40px);
+            backdrop-filter: blur(40px);
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .swapmoney_values .sub-section--1 .values_container {
+    padding-top: 1rem;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .swapmoney_values .sub-section--1 .values_container .row .sub__values img {
+    width: 50%;
+    -webkit-filter: grayscale(85%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(85%);
   }
 }
 
-@media screen and (min-width: 975px) and (max-width: 1200px) {
+@media screen and (min-width: 990px) and (max-width: 1200px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
     font-size: 3.2em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
     font-size: 0.8em;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button img {
-    color: #FFFFFF;
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_icon {
+    width: 34px;
+    height: 34px;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 .heroimage img {
-    width: 70%;
+    width: 100%;
   }
   .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
     font-size: 0.3em;
@@ -1200,6 +1294,717 @@ body {
   }
   .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 {
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .after-hero-section {
+    padding-top: 3rem;
+  }
+  .after-hero-section .sub-section-1 {
+    margin-left: 9rem;
+    padding-right: 0;
+    padding-top: 2rem;
+  }
+  .after-hero-section .sub-section-1 .individual-section {
+    padding: 2rem;
+    width: 69%;
+  }
+  .after-hero-section .sub-section-1 .individual-section .sub-individual-text-1 {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-1 .individual-section h2 {
+    font-size: 1.5em;
+  }
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-1 .individual-section .money-transfers {
+    padding-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .after-hero-section .sub-section-1 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-1 .individual-section .get-started-button {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.6em;
+    margin-top: 1rem;
+  }
+  .after-hero-section .sub-section-1 .individual-image {
+    background-image: url("../Images/first pk 1.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 275px;
+    height: 268px;
+    position: relative;
+    bottom: 1px;
+    left: -159px;
+  }
+  .after-hero-section .sub-section-2 {
+    margin-left: 9rem;
+    padding-right: 0;
+    padding-top: 19rem;
+  }
+  .after-hero-section .sub-section-2 .individual-section {
+    padding: 2rem;
+    width: 69%;
+  }
+  .after-hero-section .sub-section-2 .individual-section .sub-individual-text-1 {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-2 .individual-section h2 {
+    font-size: 1.5em;
+  }
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers {
+    padding-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-2 .individual-section .get-started-button {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.6em;
+    margin-top: 1rem;
+  }
+  .after-hero-section .sub-section-2 .corporate-image {
+    background-image: url("../Images/first pk 2.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 275px;
+    height: 268px;
+    position: relative;
+    bottom: 1px;
+    left: -159px;
+  }
+  .after-hero-section .sub-section-3 {
+    margin-left: 9rem;
+    padding-right: 0;
+    padding-top: 19rem;
+  }
+  .after-hero-section .sub-section-3 .individual-section {
+    padding: 2rem;
+    width: 69%;
+  }
+  .after-hero-section .sub-section-3 .individual-section .sub-individual-text-1 {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section h2 {
+    font-size: 1.5em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .corporate-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-3 .individual-section .corporate-paragraph p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers {
+    padding-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .get-started-button {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.6em;
+    margin-top: 1rem;
+  }
+  .after-hero-section .sub-section-3 .agent-image {
+    background-image: url("../Images/first pk 3.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 275px;
+    height: 268px;
+    position: relative;
+    bottom: 1px;
+    left: -159px;
+  }
+  .after-hero-section .sub-section-4 {
+    margin-left: 9rem;
+    padding-right: 0;
+    padding-top: 19rem;
+    padding-bottom: 5rem;
+  }
+  .after-hero-section .sub-section-4 .individual-section {
+    padding: 2rem;
+    width: 69%;
+  }
+  .after-hero-section .sub-section-4 .individual-section .sub-individual-text-1 {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section h2 {
+    font-size: 1.5em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .corporate-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-4 .individual-section .corporate-paragraph p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers {
+    padding-top: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .get-started-button {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 0.6em;
+    margin-top: 1rem;
+  }
+  .after-hero-section .sub-section-4 .emerging-market-image {
+    background-image: url("../Images/first pk 4.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 275px;
+    height: 268px;
+    position: relative;
+    bottom: 1px;
+    left: -159px;
+  }
+  .after-hero-section .sub-section-5 {
+    padding: 0;
+    margin: 0;
+  }
+  .after-hero-section .sub-section-5 .how-it-works {
+    padding-bottom: 2rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works h2 {
+    font-size: 2.5em;
+  }
+  .after-hero-section .sub-section-5 .how-it-works p {
+    font-size: 1em;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-2 {
+    display: none;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 3rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 .how-icons {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 p {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .after-hero-section .sub-section-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10rem;
+  }
+  .after-hero-section .sub-section-1 .individual-section {
+    padding: 4rem;
+    width: 70%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .after-hero-section .sub-section-1 .individual-section .sub-individual-text-1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-1 .individual-section h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #3D4094;
+  }
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-1 .individual-section .money-transfers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-1 .individual-section .money-transfers p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-1 .individual-section .money-transfers p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-1 .individual-section .get-started-button {
+    background: #00AFF0;
+    -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+            box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+  .after-hero-section .sub-section-1 .individual-image {
+    background-image: url("../Images/first pk 1.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 368px;
+    height: 288px;
+    position: relative;
+    bottom: 390px;
+    left: 345px;
+  }
+  .after-hero-section .sub-section-2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10rem;
+    margin-top: -12rem;
+  }
+  .after-hero-section .sub-section-2 .individual-section {
+    padding: 4rem;
+    width: 70%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .after-hero-section .sub-section-2 .individual-section .sub-individual-text-1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-2 .individual-section h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #3D4094;
+  }
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-2 .individual-section .get-started-button {
+    background: #00AFF0;
+    -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+            box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  .after-hero-section .sub-section-2 .corporate-image {
+    background-image: url("../Images/first pk 2.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 368px;
+    height: 288px;
+    position: relative;
+    bottom: 410px;
+    left: 345px;
+  }
+  .after-hero-section .sub-section-3 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10rem;
+    margin-top: -12rem;
+  }
+  .after-hero-section .sub-section-3 .individual-section {
+    padding: 4rem;
+    width: 70%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .after-hero-section .sub-section-3 .individual-section .sub-individual-text-1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-3 .individual-section h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #3D4094;
+  }
+  .after-hero-section .sub-section-3 .individual-section .agent-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-3 .individual-section .agent-paragraph p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-3 .individual-section .get-started-button {
+    background: #00AFF0;
+    -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+            box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 5rem;
+  }
+  .after-hero-section .sub-section-3 .agent-image {
+    background-image: url("../Images/first pk 3.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 368px;
+    height: 288px;
+    position: relative;
+    bottom: 420px;
+    left: 345px;
+  }
+  .after-hero-section .sub-section-4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 10rem;
+    margin-top: -12rem;
+  }
+  .after-hero-section .sub-section-4 .individual-section {
+    padding: 4rem 4rem 3rem 4rem;
+    width: 70%;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .after-hero-section .sub-section-4 .individual-section .sub-individual-text-1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-4 .individual-section h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #3D4094;
+  }
+  .after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph {
+    width: 60%;
+  }
+  .after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p {
+    margin-right: 2rem;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #31313E;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p .fa-check-circle-o {
+    color: #29c266;
+  }
+  .after-hero-section .sub-section-4 .individual-section .get-started-button {
+    background: #00AFF0;
+    -webkit-box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+            box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04), 0px 2px 4px rgba(52, 60, 68, 0.16);
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .after-hero-section .sub-section-4 .emerging-market-image {
+    background-image: url("../Images/first pk 4.png");
+    -webkit-box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+    border-radius: 15px;
+    width: 368px;
+    height: 288px;
+    position: relative;
+    bottom: 430px;
+    left: 345px;
+  }
+  .after-hero-section .sub-section-5 {
+    padding: 0rem 6rem 3rem 6rem;
+    margin-top: -15rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works {
+    padding-left: 2.5rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works h2 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #FFFFFF;
+  }
+  .after-hero-section .sub-section-5 .how-it-works h2 span {
+    color: #FFF500;
+  }
+  .after-hero-section .sub-section-5 .how-it-works p {
+    font-weight: 300;
+    font-size: 1em;
+    color: #FFFFFF;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-2 .circlesWithLines {
+    padding-top: 2rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-2 .circlesWithLines img {
+    width: 90%;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 3rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 .how-icons {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .after-hero-section .sub-section-5 .how-it-works-3 .steps_1 p {
+    font-size: 0.8em;
   }
 }
 

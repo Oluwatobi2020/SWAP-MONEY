@@ -216,7 +216,7 @@ body {
     .sub-header {
       padding: 0.5rem;
       width: 84%;
-      // margin-left: 5rem;
+      margin-left: -1rem;
       .firstContainer {
         .navbar-brand {
           display: flex;
@@ -437,56 +437,116 @@ body {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1427px) {
-  .hero-section {
-    // margin: 0;
-    .hero-section-1 {
-      .hero-1 {
-        .sub_hero {
-          .herotext {
-            h1 {
-              font-size: 3.5em;
+  .hero-section-1 {
+    .hero-1 {
+      // border: 1px solid red;
+
+      padding: 1rem 2rem 0rem 2rem;
+      justify-content: space-between;
+      align-items: center;
+
+      .sub_hero {
+        .herotext {
+          text-align: left;
+          // border: 1px solid greenyellow;
+          h1 {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 4.5em;
+            // line-height: 67px;
+
+            color: #ffffff;
+            .offer {
+              color: $yellow;
+            }
+          }
+          p {
+            margin-top: 0.5rem;
+            color: $white;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 0.9em;
+          }
+          .offer-coverage {
+            margin-top: 1.5rem;
+            margin-bottom: 2.5rem;
+            h5 {
+              font-family: "Raleway", sans-serif;
+              font-style: normal;
+              color: $white;
+              font-weight: 650;
+              font-size: 1em;
             }
             p {
-              font-size: 0.9em;
+              margin-bottom: 0;
+              color: $white;
+              font-weight: 400;
+              font-size: 0.8em;
             }
-            .hero_button {
-              width: max-content;
-              img {
-                color: $white;
-              }
+          }
+          .hero_icon {
+            display: flex;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 30px;
+            width: 44px;
+            height: 44px;
+            // text-align: center;
+            justify-content: center;
+            align-items: center;
+            .fa-angle-double-down {
+              color: $white;
+              font-size: 1rem;
             }
           }
         }
-        .sub_hero_2 {
-          .heroimage {
+      }
+
+      .sub_hero_2 {
+        .heroimage {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          // border: 1px solid greenyellow;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .swapmoney_values {
+    // border: 1px solid red;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(40px);
+    width: 100%;
+    padding: 0.5rem;
+    // max-height: 130px;
+    .sub-section--1 {
+      .values_container {
+        padding-top: 1rem;
+        .row {
+          display: flex;
+          justify-content: space-between;
+          .sub__values {
             img {
-              width: 70%;
+              width: 50%;
+              -webkit-filter: grayscale(85%); /* Safari 6.0 - 9.0 */
+              filter: grayscale(85%);
             }
           }
         }
       }
     }
-
-    // .swapmoney_values{
-    //   .sub-section--1{
-    //     .values_container{
-    //       .row{
-    //         .sub__values{
-    //           span{
-
-    //           }
-    //           p{
-
-    //           }
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
   }
 }
 
-@media screen and (min-width: 975px) and (max-width: 1200px) {
+@media screen and (min-width: 990px) and (max-width: 1200px) {
   .hero-section {
     // margin: 0;
     .hero-section-1 {
@@ -499,18 +559,24 @@ body {
             p {
               font-size: 0.8em;
             }
-            .hero_button {
-              width: max-content;
-              img {
-                color: $white;
+            .offer-coverage{
+              h5{
+
               }
+              p{
+
+              }
+            }
+            .hero_icon {
+              width: 34px;
+              height: 34px;
             }
           }
         }
         .sub_hero_2 {
           .heroimage {
             img {
-              width: 70%;
+              width: 100%;
             }
           }
         }
@@ -1203,6 +1269,706 @@ body {
 
     }
 }
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .after-hero-section{
+      padding-top: 3rem;
+      .sub-section-1{
+        margin-left: 9rem;
+          padding-right: 0;
+          padding-top: 2rem;
+          .individual-section{
+              padding: 2rem;
+              width: 69%;
+              .sub-individual-text-1{
+                  font-size: 0.8em;
+                  .get-started-button{
+  
+                  }
+              }
+              h2{
+              font-size: 1.5em;
+              }
+              .individual-paragraph{
+                width: 60%;
+                p{
+                font-size: 0.8em;
+                }
+
+              }
+              .money-transfers{
+                  padding-top: 1rem;
+                  flex-direction: column;
+                  p{
+                  font-size: 0.8em;
+                  }
+              }
+              .get-started-button{
+              padding: 1rem 1rem 1rem 1rem;
+              font-size: 0.6em;
+              margin-top: 1rem;
+          }
+          }
+          .individual-image{
+            background-image: url("../Images/first\ pk\ 1.png");
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            border-radius: 15px;
+            // width: 100%;
+            width: 275px;
+            height: 268px;
+            position: relative;
+            bottom: 1px;
+            left: -159px;          
+          }
+      }
+      .sub-section-2{
+        margin-left: 9rem;
+          padding-right: 0;
+          padding-top: 19rem;
+          .individual-section{
+              padding: 2rem;
+              width: 69%;
+              .sub-individual-text-1{
+                  font-size: 0.8em;
+                  .get-started-button{
+  
+                  }
+              }
+              h2{
+              font-size: 1.5em;
+              }
+              .corporate-paragraph{
+                width: 60%;
+                p{
+                font-size: 0.8em;
+                }
+
+              }
+              .money-transfers{
+                  padding-top: 1rem;
+                  flex-direction: column;
+                  p{
+                  font-size: 0.8em;
+                  }
+              }
+              .money-transfers-2{
+                p{
+                  font-size: 0.8em;
+                }
+              }
+
+              .get-started-button{
+              padding: 1rem 1rem 1rem 1rem;
+              font-size: 0.6em;
+              margin-top: 1rem;
+          }
+          }
+          .corporate-image{
+            background-image: url("../Images/first\ pk\ 2.png");
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            border-radius: 15px;
+            // width: 100%;
+            width: 275px;
+            height: 268px;
+            position: relative;
+            bottom: 1px;
+            left: -159px;          
+          }
+      }
+      .sub-section-3{
+        margin-left: 9rem;
+          padding-right: 0;
+          padding-top: 19rem;
+          .individual-section{
+              padding: 2rem;
+              width: 69%;
+              .sub-individual-text-1{
+                  font-size: 0.8em;
+                  .get-started-button{
+  
+                  }
+              }
+              h2{
+              font-size: 1.5em;
+              }
+              .corporate-paragraph{
+                width: 60%;
+                p{
+                font-size: 0.8em;
+                }
+
+              }
+              .money-transfers{
+                  padding-top: 1rem;
+                  flex-direction: column;
+                  p{
+                  font-size: 0.8em;
+                  }
+              }
+              .money-transfers-1{
+                p{
+                  font-size: 0.8em;
+                }
+              }
+              .money-transfers-2{
+                p{
+                  font-size: 0.8em;
+                }
+              }
+              .get-started-button{
+              padding: 1rem 1rem 1rem 1rem;
+              font-size: 0.6em;
+              margin-top: 1rem;
+          }
+          }
+          .agent-image{
+            background-image: url("../Images/first\ pk\ 3.png");
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            border-radius: 15px;
+            // width: 100%;
+            width: 275px;
+            height: 268px;
+            position: relative;
+            bottom: 1px;
+            left: -159px;          
+          }
+      }
+      .sub-section-4{
+        margin-left: 9rem;
+          padding-right: 0;
+          padding-top: 19rem;
+          padding-bottom: 5rem;
+          .individual-section{
+              padding: 2rem;
+              width: 69%;
+              .sub-individual-text-1{
+                  font-size: 0.8em;
+                  .get-started-button{
+  
+                  }
+              }
+              h2{
+              font-size: 1.5em;
+              }
+              .corporate-paragraph{
+                width: 60%;
+                p{
+                font-size: 0.8em;
+                }
+
+              }
+              .money-transfers{
+                  padding-top: 1rem;
+                  flex-direction: column;
+                  p{
+                  font-size: 0.8em;
+                  }
+              }
+              .money-transfers-1{
+                p{
+                font-size: 0.8em;
+                }
+            }
+              .money-transfers-2{
+                p{
+                  font-size: 0.8em;
+                }
+              }
+
+              .get-started-button{
+              padding: 1rem 1rem 1rem 1rem;
+              font-size: 0.6em;
+              margin-top: 1rem;
+          }
+          }
+          .emerging-market-image{
+            background-image: url("../Images/first\ pk\ 4.png");
+            box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+            border-radius: 15px;
+            // width: 100%;
+            width: 275px;
+            height: 268px;
+            position: relative;
+            bottom: 1px;
+            left: -159px;          
+          }
+      }
+
+      .sub-section-5{
+          padding: 0;
+          margin: 0;
+          .how-it-works{
+            padding-bottom: 2rem;
+            h2{
+              font-size: 2.5em;
+            }
+            p{
+              font-size: 1em;
+            }
+          }
+          .how-it-works-2{
+            display: none;
+          }
+          .how-it-works-3{
+            align-items: center;
+            .steps_1{
+              width: 140px;
+              height: 140px;
+              margin-bottom: 3rem;
+              .how-icons{
+                font-size: 1.5em;
+                padding: 0;
+                margin: 1rem 0rem 1rem 0rem;
+              }
+              p{
+                font-size: 0.8em;
+              }
+            }
+          }
+      }
+
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .after-hero-section{
+    .sub-section-1 {
+      justify-content: center;
+      align-items: center;
+      padding-right: 10rem;
+      // margin-right: 7rem;
+      .individual-section {
+        padding: 4rem;
+        width: 70%;
+        background: $white;
+        box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        .sub-individual-text-1 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1em;
+          color: $black2;
+        }
+        h2 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 650;
+          font-size: 2.5em;
+          color: $pri_purple;
+        }
+        .individual-paragraph{
+          width: 60%;
+          p {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;
+          }
+  
+        }
+        .money-transfers {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .get-started-button {
+          background: $bg_color;
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+            0px 2px 4px rgba(52, 60, 68, 0.16);
+          border-radius: 8px;
+          color: $white;
+          border: none;
+          padding: 1rem 2rem 1rem 2rem;
+          font-size: 1em;
+          font-weight: 600;
+          margin-top: 3rem;
+        }
+      }
+      .individual-image {
+        background-image: url("../Images/first\ pk\ 1.png");
+        box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+        border-radius: 15px;
+        // width: 100%;
+        width: 368px;
+        height: 288px;
+        position: relative;
+        bottom: 390px;
+        left: 345px;
+      }
+    }
+
+    .sub-section-2 {
+      justify-content: center;
+      align-items: center;
+      padding-right: 10rem;
+      margin-top: -12rem;
+      .individual-section {
+        padding: 4rem;
+        width: 70%;
+        background: $white;
+        box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        //   margin-right: 12rem;
+        .sub-individual-text-1 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 1em;
+          color: $black2;
+        }
+        h2 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 650;
+          font-size: 2.5em;
+          color: $pri_purple;
+        }
+        .corporate-paragraph{
+          width: 60%;
+          p {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;
+          }
+  
+        }
+        .money-transfers {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;          
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .money-transfers-2 {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;           
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+  
+        .get-started-button {
+          background: $bg_color;
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+            0px 2px 4px rgba(52, 60, 68, 0.16);
+          border-radius: 8px;
+          color: $white;
+          border: none;
+          padding: 1rem 2rem 1rem 2rem;
+          font-size: 1em;
+          font-weight: 600;
+          margin-top: 2rem;
+        }
+      }
+      .corporate-image {
+          background-image: url("../Images/first\ pk\ 2.png");
+          box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+          border-radius: 15px;
+          // width: 100%;
+          width: 368px;
+          height: 288px;
+          position: relative;
+          bottom: 410px;
+          left: 345px;
+        }
+    }
+  
+    .sub-section-3 {
+      justify-content: center;
+      align-items: center;
+      padding-right: 10rem;
+      margin-top: -12rem;
+      .individual-section {
+        padding: 4rem;
+        width: 70%;
+        background: $white;
+        box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        //   margin-right: 12rem;
+        .sub-individual-text-1 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 1em;
+          color: $black2;
+        }
+        h2 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 650;
+          font-size: 2.5em;
+          color: $pri_purple;
+        }
+        .agent-paragraph{
+          width: 60%;
+          p {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+          }
+  
+        }
+        .money-transfers {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2;           
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .money-transfers-1 {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .money-transfers-2 {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .get-started-button {
+          background: $bg_color;
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+            0px 2px 4px rgba(52, 60, 68, 0.16);
+          border-radius: 8px;
+          color: $white;
+          border: none;
+          padding: 1rem 2rem 1rem 2rem;
+          font-size: 1em;
+          font-weight: 600;
+          margin-top: 5rem;
+        }
+      }
+      .agent-image {
+          background-image: url("../Images/first\ pk\ 3.png");
+          box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+          border-radius: 15px;
+          // width: 100%;
+          width: 368px;
+          height: 288px;
+          position: relative;
+          bottom: 420px;
+          left: 345px;
+        }
+      
+    }
+  
+    .sub-section-4 {
+      justify-content: center;
+      align-items: center;
+      padding-right: 10rem;
+      margin-top: -12rem;
+      .individual-section {
+        padding: 4rem 4rem 3rem 4rem;
+        width: 70%;
+        background: $white;
+        box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        //   margin-right: 12rem;
+        .sub-individual-text-1 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 1em;
+          color: $black2;
+        }
+        h2 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 650;
+          font-size: 2.5em;
+          color: $pri_purple;
+        }
+        .emerging-market-paragraph{
+          width: 60%;
+          p {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+          }
+  
+        }
+        .money-transfers {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .money-transfers-1 {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .money-transfers-2 {
+          display: flex;
+          p {
+            margin-right: 2rem;
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            color: $black2; 
+            .fa-check-circle-o {
+              color: #29c266;
+            }
+          }
+        }
+        .get-started-button {
+          background: $bg_color;
+          box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+            0px 2px 4px rgba(52, 60, 68, 0.16);
+          border-radius: 8px;
+          color: $white;
+          border: none;
+          padding: 1rem 2rem 1rem 2rem;
+          font-size: 1em;
+          font-weight: 600;
+          margin-top: 1rem;
+        }
+      }
+      .emerging-market-image {
+          background-image: url("../Images/first\ pk\ 4.png");
+          box-shadow: 10px 40px 60px 10px rgba(61, 64, 148, 0.25);
+          border-radius: 15px;
+          // width: 100%;
+          width: 368px;
+          height: 288px;
+          position: relative;
+          bottom: 430px;
+          left: 345px;
+        }
+    }
+  
+    .sub-section-5 {
+      padding: 0rem 6rem 3rem 6rem;
+      margin-top: -15rem;
+      .how-it-works {
+        padding-left: 2.5rem;
+        h2 {
+          font-family: "Raleway", sans-serif;
+          font-style: normal;
+          font-weight: 650;
+          font-size: 2.5em;
+          color: $white;
+          span {
+            color: $yellow;
+          }
+        }
+        p {
+          font-weight: 300;
+          font-size: 1em;
+          color: $white;
+        }
+      }
+      .how-it-works-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1rem;
+        .circlesWithLines {
+          padding-top: 2rem;
+          img {
+            width: 90%;
+          }
+        }
+      }
+      .how-it-works-3 {
+        display: flex;
+        justify-content: space-around;
+        .steps_1{
+          width: 140px;
+          height: 140px;
+          margin-bottom: 3rem;
+          .how-icons{
+            font-size: 1.5em;
+            padding: 0;
+            margin: 1rem 0rem 1rem 0rem;
+          }
+          p{
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+
 
 .before-footer {
   padding: 3rem 6rem 6rem 6rem;
