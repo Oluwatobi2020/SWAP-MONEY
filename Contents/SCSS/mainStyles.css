@@ -1113,16 +1113,15 @@ body {
     width: 100%;
   }
   .why-swap-money .sub-section .sub-section-1 .why-swap-text {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
     margin-left: 2rem;
+    padding: 1.5rem;
   }
   .why-swap-money .sub-section .sub-section-1 .why-swap-text h2 {
     font-size: 1.5em;
   }
   .why-swap-money .sub-section .sub-section-1 .why-swap-text p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .why-swap-money .sub-section .sub-section-2 {
     display: block;
@@ -1248,6 +1247,7 @@ body {
 @media screen and (max-width: 420px) {
   .why-swap-money-2 {
     margin: 0;
+    padding-bottom: 4rem;
   }
   .why-swap-money-2 .sub-section {
     display: block;
@@ -1263,14 +1263,14 @@ body {
             justify-content: center;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
-    width: 70%;
+    width: 84%;
     padding: 1.5rem;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text h2 {
     font-size: 1.5em;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text-2 img {
     display: none;
