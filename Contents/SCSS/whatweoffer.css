@@ -368,7 +368,7 @@ body {
     font-size: 0.85em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_icon {
-    margin-left: 5.5rem;
+    margin-left: 7.5rem;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero_2 {
     display: none;
@@ -477,11 +477,16 @@ body {
   color: #3D4094;
 }
 
-.after-hero-section .sub-section-1 .individual-section p {
+.after-hero-section .sub-section-1 .individual-section .individual-paragraph {
+  width: 60%;
+}
+
+.after-hero-section .sub-section-1 .individual-section .individual-paragraph p {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-1 .individual-section .money-transfers {
@@ -492,6 +497,11 @@ body {
 
 .after-hero-section .sub-section-1 .individual-section .money-transfers p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-1 .individual-section .money-transfers p .fa-check-circle-o {
@@ -559,9 +569,16 @@ body {
   color: #3D4094;
 }
 
-.after-hero-section .sub-section-2 .individual-section p {
-  font-weight: 300;
+.after-hero-section .sub-section-2 .individual-section .corporate-paragraph {
+  width: 60%;
+}
+
+.after-hero-section .sub-section-2 .individual-section .corporate-paragraph p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-2 .individual-section .money-transfers {
@@ -572,6 +589,11 @@ body {
 
 .after-hero-section .sub-section-2 .individual-section .money-transfers p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-2 .individual-section .money-transfers p .fa-check-circle-o {
@@ -586,6 +608,11 @@ body {
 
 .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p .fa-check-circle-o {
@@ -653,9 +680,16 @@ body {
   color: #3D4094;
 }
 
-.after-hero-section .sub-section-3 .individual-section p {
-  font-weight: 300;
+.after-hero-section .sub-section-3 .individual-section .agent-paragraph {
+  width: 60%;
+}
+
+.after-hero-section .sub-section-3 .individual-section .agent-paragraph p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers {
@@ -666,6 +700,11 @@ body {
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers p .fa-check-circle-o {
@@ -680,6 +719,11 @@ body {
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p .fa-check-circle-o {
@@ -694,6 +738,11 @@ body {
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p .fa-check-circle-o {
@@ -761,9 +810,16 @@ body {
   color: #3D4094;
 }
 
-.after-hero-section .sub-section-4 .individual-section p {
-  font-weight: 300;
+.after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph {
+  width: 60%;
+}
+
+.after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers {
@@ -774,6 +830,11 @@ body {
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers p .fa-check-circle-o {
@@ -788,6 +849,11 @@ body {
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p .fa-check-circle-o {
@@ -802,6 +868,11 @@ body {
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p {
   margin-right: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  color: #31313E;
 }
 
 .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p .fa-check-circle-o {
@@ -949,7 +1020,10 @@ body {
   .after-hero-section .sub-section-1 .individual-section h2 {
     font-size: 1.5em;
   }
-  .after-hero-section .sub-section-1 .individual-section p {
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph {
+    width: 100%;
+  }
+  .after-hero-section .sub-section-1 .individual-section .individual-paragraph p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-1 .individual-section .money-transfers {
@@ -984,7 +1058,10 @@ body {
   .after-hero-section .sub-section-2 .individual-section h2 {
     font-size: 1.5em;
   }
-  .after-hero-section .sub-section-2 .individual-section p {
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph {
+    width: 100%;
+  }
+  .after-hero-section .sub-section-2 .individual-section .corporate-paragraph p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-2 .individual-section .money-transfers {
@@ -995,6 +1072,9 @@ body {
             flex-direction: column;
   }
   .after-hero-section .sub-section-2 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-2 .individual-section .money-transfers-2 p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-2 .individual-section .get-started-button {
@@ -1019,7 +1099,10 @@ body {
   .after-hero-section .sub-section-3 .individual-section h2 {
     font-size: 1.5em;
   }
-  .after-hero-section .sub-section-3 .individual-section p {
+  .after-hero-section .sub-section-3 .individual-section .agent-paragraph {
+    width: 100%;
+  }
+  .after-hero-section .sub-section-3 .individual-section .agent-paragraph p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-3 .individual-section .money-transfers {
@@ -1030,6 +1113,12 @@ body {
             flex-direction: column;
   }
   .after-hero-section .sub-section-3 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-1 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-3 .individual-section .money-transfers-2 p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-3 .individual-section .get-started-button {
@@ -1055,7 +1144,10 @@ body {
   .after-hero-section .sub-section-4 .individual-section h2 {
     font-size: 1.5em;
   }
-  .after-hero-section .sub-section-4 .individual-section p {
+  .after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph {
+    width: 100%;
+  }
+  .after-hero-section .sub-section-4 .individual-section .emerging-market-paragraph p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-4 .individual-section .money-transfers {
@@ -1065,6 +1157,12 @@ body {
             flex-direction: column;
   }
   .after-hero-section .sub-section-4 .individual-section .money-transfers p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-1 p {
+    font-size: 0.8em;
+  }
+  .after-hero-section .sub-section-4 .individual-section .money-transfers-2 p {
     font-size: 0.8em;
   }
   .after-hero-section .sub-section-4 .individual-section .get-started-button {
