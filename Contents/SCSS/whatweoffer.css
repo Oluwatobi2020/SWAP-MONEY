@@ -132,7 +132,7 @@ body {
 @media screen and (max-width: 517px) {
   .navbar_wrapper .sub-header {
     width: 84%;
-    margin-left: -5rem;
+    margin-left: -4.5rem;
   }
   .navbar_wrapper .sub-header .firstContainer .navbar-brand {
     display: -webkit-box;
