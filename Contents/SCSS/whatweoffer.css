@@ -627,6 +627,14 @@ body {
   left: 450px;
 }
 
+.after-hero-section .sub-section-1 .individual-image:hover {
+  width: 550px;
+  height: 532px;
+  position: relative;
+  bottom: 530px;
+  left: 450px;
+}
+
 .after-hero-section .sub-section-2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -735,6 +743,14 @@ body {
   height: 388px;
   position: relative;
   bottom: 450px;
+  left: 450px;
+}
+
+.after-hero-section .sub-section-2 .corporate-image:hover {
+  width: 550px;
+  height: 532px;
+  position: relative;
+  bottom: 520px;
   left: 450px;
 }
 
@@ -868,6 +884,14 @@ body {
   left: 450px;
 }
 
+.after-hero-section .sub-section-3 .agent-image:hover {
+  width: 550px;
+  height: 532px;
+  position: relative;
+  bottom: 530px;
+  left: 450px;
+}
+
 .after-hero-section .sub-section-4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -995,6 +1019,14 @@ body {
   height: 388px;
   position: relative;
   bottom: 480px;
+  left: 450px;
+}
+
+.after-hero-section .sub-section-4 .emerging-market-image:hover {
+  width: 550px;
+  height: 532px;
+  position: relative;
+  bottom: 540px;
   left: 450px;
 }
 
