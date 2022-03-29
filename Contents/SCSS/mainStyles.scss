@@ -385,6 +385,7 @@ body {
 
 @media screen and (max-width: 420px) {
   .hero-section {
+
     // margin: 0;
 
     .hero-section-1 {
@@ -413,6 +414,22 @@ body {
                 color: $white;
               }
             }
+
+            .hero_button:hover {
+              margin-top: 1.5rem;
+              margin-bottom: 2.5rem;
+              background-color: #0ba2da;
+              color: $white;
+              width: max-content;
+              border: none;
+              padding-left: 2rem;
+              padding-right: 2rem;              
+              border-radius: 8px;
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);            
+                img {
+                color: $white;
+            }
           }
         }
         .sub_hero_2 {
@@ -437,6 +454,90 @@ body {
               }
               p{
                 font-size: 2em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+}
+};
+
+@media screen and (min-width: 420px) and (max-width:830px) {
+  .hero-section {
+    // margin: 0;
+
+    .hero-section-1 {
+      .hero-1 {
+        .sub_hero {
+          .herotext {
+            h1 {
+              font-family: "Raleway", sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 2em;
+              // line-height: 67px;
+            }
+            p {
+              margin-top: 1.5rem;
+              font-size: 0.8em;
+            }
+            .hero_button {
+              width: max-content;
+              font-size: 1em;
+              padding-left: 2rem;
+              padding-right: 2rem;
+              margin-top: 1.5rem;
+              margin-bottom: 2.5rem;
+              img {
+                color: $white;
+              }
+            }
+            .hero_button:hover {
+              margin-top: 1.5rem;
+              margin-bottom: 2.5rem;
+              background-color: #0ba2da;
+              color: $white;
+              width: max-content;
+              border: none;
+              padding-left: 2rem;
+              padding-right: 2rem;              
+              border-radius: 8px;
+              box-shadow: 0px 0px 1px rgba(117, 131, 142, 0.04),
+                0px 2px 4px rgba(52, 60, 68, 0.16);            
+                img {
+                color: $white;
+            }
+          }
+          }
+        }
+        .sub_hero_2 {
+          .heroimage {
+            img {
+              // display: none;
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+
+    .swapmoney_values{
+      .sub-section--1{
+        padding-left: 1rem;
+        .values_container{
+          .row{
+            .sub__values{
+              span{
+                font-size: 0.4em;
+              }
+              p{
+                font-size: 1.2em;
               }
             }
           }
@@ -496,58 +597,6 @@ body {
   }
 }
 
-// @media screen and (max-width: 984px) {
-//   .hero-section {
-//     // margin: 0;
-
-//     .hero-section-1 {
-//       .hero-1 {
-//         .sub_hero {
-//           .herotext {
-//             h1 {
-//               font-size: 30px;
-//             }
-//             p {
-//               font-size: 15px;
-//             }
-//             .hero_button {
-//               width: max-content;
-//               font-size: 0.7em;
-//               img {
-//                 color: $white;
-//               }
-//             }
-//           }
-//         }
-//         .sub_hero_2 {
-//           .heroimage {
-//             img {
-//               // display: none;
-//               width: 100%;
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     .swapmoney_values{
-//       .sub-section--1{
-//         .values_container{
-//           .row{
-//             .sub__values{
-//               span{
-//                 font-size: 0.3em;
-//               }
-//               p{
-//                 font-size:1.3em;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 @media screen and (min-width: 975px) and (max-width:1200px) {
   .hero-section {
@@ -599,59 +648,6 @@ body {
     }
   }
   
-
-// @media screen and (max-width: 576px) {
-//   .hero-section {
-//     // margin: 0;
-
-//     .hero-section-1 {
-//       .hero-1 {
-//         .sub_hero {
-//           .herotext {
-//             h1 {
-//               font-size: 30px;
-//             }
-//             p {
-//               font-size: 15px;
-//             }
-//             .hero_button {
-//               width: max-content;
-//               font-size: 0.7em;
-//               img {
-//                 color: $white;
-//               }
-//             }
-//           }
-//         }
-//         .sub_hero_2 {
-//           .heroimage {
-//             img {
-//               // display: none;
-//               width: 100%;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-
-//   .swapmoney_values{
-//     .sub-section--1{
-//       .values_container{
-//         .row{
-//           .sub__values{
-//             span{
-//               font-size: 0.3em;
-//             }
-//             p{
-//               font-size: 1.3em;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 
 .about-us {
@@ -768,6 +764,52 @@ body {
         .about-image {
           // width: 50%;
           display: none;
+          img {
+            width: 100%;
+            .sub-image {
+              width: 214px;
+              height: 166px;
+              right: 20px;
+              bottom: 100px;
+              h5 {
+                font-size: 1.8em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width: 420px) and (max-width:830px) {
+  .about-us {
+    margin: 0;
+
+    .sub_section-2 {
+      .about-us-row {
+        justify-content: center;
+        .about-text{
+          .about-us__1{
+            margin: 0;
+            padding-top: 0;
+            h3{
+              font-size: 2.5em;
+            }
+            .inner-about-us-text{
+              p{
+                font-size: 1em;
+              }
+
+            }
+            // .learn-more{
+
+            // }
+          }
+        }
+        .about-image {
+          width: 50%;
+          // display: none;
           img {
             width: 100%;
             .sub-image {
@@ -1365,25 +1407,39 @@ body {
   }
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (min-width: 420px)and (max-width:830px) {
   .why-swap-money {
     margin: 0;
 
     .sub-section {
-      // .sub-section-1 {
-      //   .girl-image {
-      //     img {
-      //       // width: 90%;
-      //     }
-      //   }
-      //   .why-swap-text {
-      //     h2 {
-      //     }
-      //     p {
-      //     }
-      //   }
-      // }
+      .sub-section-1 {
+        flex-direction: column;
+        margin-left: -6rem;
+        margin-right: -2rem;
+        .girl-image {
+          display: flex;
+          justify-content: center;
+          margin-left: 2rem;
+          img {
+            // margin-left: 2rem;
+            width: 80%;
+          }
+        }
+        .why-swap-text {
+          width: 100%;
+          margin-left: 0;
+          padding: 1.5rem;         
+          h2 {
+            font-size: 1.5em;
+          }
+          p {
+            font-size: 0.8em;
+          }
+        }
+      }
       .sub-section-2 {
+        display: flex;
+        // margin-left: -2rem;
         padding: 0;
         .swap-benefits-1 {
           margin-top: 2rem;
@@ -1434,6 +1490,76 @@ body {
     }
   }
 }
+
+// @media screen and (max-width: 993px) {
+//   .why-swap-money {
+//     margin: 0;
+
+//     .sub-section {
+//       // .sub-section-1 {
+//       //   .girl-image {
+//       //     img {
+//       //       // width: 90%;
+//       //     }
+//       //   }
+//       //   .why-swap-text {
+//       //     h2 {
+//       //     }
+//       //     p {
+//       //     }
+//       //   }
+//       // }
+//       .sub-section-2 {
+//         padding: 0;
+//         .swap-benefits-1 {
+//           margin-top: 2rem;
+//           margin-left: 2rem;
+//           // .swap-card {
+//           //   .icon {
+//           //     img {
+//           //     }
+//           //   }
+//           //   .swap-text {
+//           //   }
+//           // }
+//         }
+//         .swap-benefits-2 {
+//           margin-top: 2rem;
+//           // .swap-card {
+//           //   .icon {
+//           //     img {
+//           //     }
+//           //   }
+//           //   .swap-text {
+//           //   }
+//           // }
+//         }
+//         .swap-benefits-3 {
+//           margin-top: 2rem;
+//           // .swap-card {
+//           //   .icon {
+//           //     img {
+//           //     }
+//           //   }
+//           //   .swap-text {
+//           //   }
+//           // }
+//         }
+//         .swap-benefits-4 {
+//           margin-top: 2rem;
+//           // .swap-card {
+//           //   .icon {
+//           //     img {
+//           //     }
+//           //   }
+//           //   .swap-text {
+//           //   }
+//           // }
+//         }
+//       }
+//     }
+//   }
+// }
 
 .why-swap-money-2 {
   margin: 0;
@@ -1544,20 +1670,36 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1300px) {
+@media screen and (min-width: 420px) and (max-width:830px) {
   .why-swap-money-2 {
     margin: 0;
-
+    padding-bottom: 4rem;
     .sub-section {
+      display: block;
+      justify-content: center;
+      padding: 0;
       .sub-section-2 {
-
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        // margin-left: -4rem;
+        // margin-right: -4rem;
         .why-swap-text {
-          width: 50%;
+          width: 90%;
+          padding: 1.5rem;
+          // margin-top: 2rem;
+          // margin-left: 4.4rem;
+          h2{
+            font-size: 1.5em;
+          }
+          p{
+            font-size: 0.8em;
+          }        
         }
         .why-swap-text-2 {
-          margin-top: 2rem;
+          width: 93%;
+          padding-top: 3rem;
           img {
-            margin-left: 2rem;
             width: 100%;
           }
         }
@@ -1565,6 +1707,28 @@ body {
     }
   }
 }
+
+// @media screen and (min-width: 768px) and (max-width:1300px) {
+//   .why-swap-money-2 {
+//     margin: 0;
+
+//     .sub-section {
+//       .sub-section-2 {
+
+//         .why-swap-text {
+//           width: 50%;
+//         }
+//         .why-swap-text-2 {
+//           margin-top: 2rem;
+//           img {
+//             margin-left: 2rem;
+//             width: 100%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 .win-with-us {
   margin: 0;
@@ -1714,40 +1878,6 @@ body {
   }
 }
 
-// .win-with-us {
-//   margin: 0;
-
-//   background-color: #e5e5e5;
-//   .sub-section {
-//     padding: 4rem;
-//     h2 {
-//       font-weight: bold;
-//     }
-//     .sub-section-1 {
-//       margin-top: 3rem;
-//       .card-wrap {
-
-//       }
-//     }
-//   }
-// }
-
-// .win-with-us {
-//   margin: 0;
-
-//   background-color: #e5e5e5;
-//   .sub-section {
-//     padding: 5rem 0rem 5rem 0rem;
-//     h2 {
-//       font-weight: bold;
-//     }
-//     .sub-section-1 {
-//       margin-top: 3rem;
-//       .card-wrap {
-//       }
-//     }
-//   }
-// }
 
 @media screen and(max-width:420px) {
   .win-with-us {
@@ -1768,6 +1898,54 @@ body {
         .card-wrap {
           .swap-cardds-1, .swap-cardds-2, .swap-cardds-3 {
             margin-top: 4rem;
+            // img {
+            // }
+            .card-body {
+              .custom-title {
+                .accordion{
+                  .accordion-item{
+                    .accordion-header{
+                      button{
+                        padding-left: 2rem;
+                        padding-right: 2rem;
+                        font-size: 0.7em;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and(min-width:420px) and (max-width:830px) {
+  .win-with-us {
+    margin: 0;
+    .sub-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      padding-bottom: 4rem;
+      h2{
+        padding: 3rem 1rem 0rem 1rem;
+        font-size: 2.2em;
+
+      }
+      .sub-section-1 {
+        // margin-left: 1rem;
+        flex-direction: column;
+        width: 63%;
+        margin-top: 0;
+        .card-wrap {
+          // margin: 0;
+          .swap-cardds-1, .swap-cardds-2, .swap-cardds-3 {
+            // margin-top: 4rem;
             // img {
             // }
             .card-body {
@@ -1976,6 +2154,57 @@ body {
   }
 }
 
+@media screen and (min-width: 420px) and (max-width:830px) {
+  .swap-money-footer{
+    margin: 0;
+    .sub-section-1{
+      padding: 5rem 2rem 3rem 2rem;
+      // padding-right: 2rem;
+      text-align: left;
+      .swap-footer-1{
+        width: 100%;
+        img{
+          width: 50%;
+        }
+        p{
+          font-size: 0.9em;
+          margin-bottom: 3rem;
+        }
+      }
+      .about-footer{
+        display: flex;
+        .swap-footer-2{
+          flex-direction: column;
+          // .footer-companies{
+          //   .companies{
+
+          //   }
+          //   .footer-links{
+
+          //   }
+          // }
+          // .footer-products{
+          //   .products{
+
+          //   }
+          //   .footer-links{
+
+          //   }
+          // }
+          // .footer-offers{
+          //   .offers{
+
+          //   }
+          //   .footer-links{
+
+          //   }
+          // }
+        }
+      }
+    }
+  }
+}
+
 .footer-base {
   margin: 0;
   display: flex;
@@ -2005,6 +2234,27 @@ body {
 }
 
 @media screen and (max-width:420px) {
+  .footer-base{
+    margin: 0;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+    .footer-base-circles{
+      margin-bottom: 2rem;
+      // .dot{
+
+      // }
+    }
+    .footer-copyright{
+      p{
+        font-size: 0.8em;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:420px) and (max-width:830px) {
   .footer-base{
     margin: 0;
     flex-direction: column;
