@@ -4,6 +4,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
 
@@ -379,10 +380,10 @@ body {
     padding-left: 1rem;
   }
   .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
   .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
-    font-size: 2.1em;
+    font-size: 2em;
   }
 }
 
@@ -462,13 +463,12 @@ body {
   color: #FFF500;
 }
 
-.about-us .sub_section-2 .about-us-row .about-text .about-us__1 p {
+.about-us .sub_section-2 .about-us-row .about-text .about-us__1 .inner-about-us-text p {
   font-style: normal;
   font-weight: 200;
   font-size: 1em;
   color: #FFFFFF;
   text-align: justify;
-  line-break: auto;
 }
 
 .about-us .sub_section-2 .about-us-row .about-text .about-us__1 .learn-more {
@@ -543,7 +543,7 @@ body {
   .about-us .sub_section-2 .about-us-row .about-text .about-us__1 h3 {
     font-size: 2.5em;
   }
-  .about-us .sub_section-2 .about-us-row .about-text .about-us__1 p {
+  .about-us .sub_section-2 .about-us-row .about-text .about-us__1 .inner-about-us-text p {
     font-size: 1em;
   }
   .about-us .sub_section-2 .about-us-row .about-image {
@@ -1261,6 +1261,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0;
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
     width: 84%;

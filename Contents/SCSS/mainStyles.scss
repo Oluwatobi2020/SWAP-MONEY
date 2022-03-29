@@ -8,7 +8,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  // overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "Inter", sans-serif;
   // overflow-wrap: anywhere;
 }
@@ -433,10 +433,10 @@ body {
           .row{
             .sub__values{
               span{
-                font-size: 0.8em;
+                font-size: 0.6em;
               }
               p{
-                font-size: 2.1em;
+                font-size: 2em;
               }
             }
           }
@@ -675,14 +675,16 @@ body {
               color: $yellow;
             }
           }
-          p {
-            font-style: normal;
-            font-weight: 200;
-            font-size: 1em;
-            // line-height: 170%;
-            color: $white;
-            text-align: justify;
-            line-break: auto;
+          .inner-about-us-text{
+            p {
+              font-style: normal;
+              font-weight: 200;
+              font-size: 1em;
+              // line-height: 170%;
+              color: $white;
+              text-align: justify;
+            }
+
           }
           .learn-more {
             margin-top: 1rem;
@@ -752,8 +754,11 @@ body {
             h3{
               font-size: 2.5em;
             }
-            p{
-              font-size: 1em;
+            .inner-about-us-text{
+              p{
+                font-size: 1em;
+              }
+
             }
             // .learn-more{
 
@@ -1041,34 +1046,6 @@ body {
     }
   }
 }
-// .our-partners{
-//   // .parabola_1, .parabola_2{
-//   //   img{
-
-//   //   }
-//   }
-//   .sub-section{
-//     .header-text{
-//       h2{
-
-//       }
-//       p{
-
-//       }
-//     }
-//     .partners-logo{
-//       .logo_1{
-
-//       }
-//       .logo_2{
-
-//       }
-//       .logo_3{
-
-//       }
-//     }
-//   }
-// }
 
 .why-swap-money {
   margin: 0;
@@ -1541,6 +1518,7 @@ body {
       .sub-section-2 {
         padding: 0;
         justify-content: center;
+        margin: 0;
         // margin-left: -4rem;
         // margin-right: -4rem;
         .why-swap-text {
