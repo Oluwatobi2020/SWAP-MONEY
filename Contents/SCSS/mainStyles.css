@@ -251,7 +251,7 @@ body {
   color: #FFF500;
 }
 
-.hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+.hero-section .hero-section-1 .hero-1 .sub_hero .herotext .offer-text p {
   margin-top: 0.5rem;
   color: #FFFFFF;
   font-style: normal;
@@ -355,11 +355,11 @@ body {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.9em;
+    font-size: 2.35em;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .offer-text p {
     margin-top: 1.5rem;
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .hero_button {
     width: -webkit-max-content;
@@ -395,25 +395,28 @@ body {
   .hero-section .hero-section-1 .hero-1 .sub_hero .sub_hero_2 .heroimage img {
     width: 100%;
   }
-  .hero-section .hero-section-1 .swapmoney_values .sub-section--1 {
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row {
     padding-left: 1rem;
   }
-  .hero-section .hero-section-1 .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values span {
     font-size: 0.6em;
   }
-  .hero-section .hero-section-1 .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
+  .hero-section .swapmoney_values .sub-section--1 .values_container .row .sub__values p {
     font-size: 2em;
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 975px) {
+@media screen and (min-width: 420px) and (max-width: 830px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 2em;
   }
-  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext p {
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .offer-text {
+    width: 50%;
+  }
+  .hero-section .hero-section-1 .hero-1 .sub_hero .herotext .offer-text p {
     margin-top: 1.5rem;
     font-size: 0.8em;
   }
@@ -2295,7 +2298,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.swap-money-footer .sub-section-1 .swap-footer-1 p {
+.swap-money-footer .sub-section-1 .swap-footer-1 .footer-text p {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
@@ -2400,9 +2403,9 @@ body {
     text-align: left;
   }
   .swap-money-footer .sub-section-1 .swap-footer-1 img {
-    width: 100%;
+    width: 70%;
   }
-  .swap-money-footer .sub-section-1 .swap-footer-1 p {
+  .swap-money-footer .sub-section-1 .swap-footer-1 .footer-text p {
     font-size: 0.9em;
     margin-bottom: 3rem;
   }
@@ -2433,7 +2436,7 @@ body {
   .swap-money-footer .sub-section-1 .swap-footer-1 img {
     width: 50%;
   }
-  .swap-money-footer .sub-section-1 .swap-footer-1 p {
+  .swap-money-footer .sub-section-1 .swap-footer-1 .footer-text p {
     font-size: 0.9em;
     margin-bottom: 3rem;
   }
@@ -2467,7 +2470,7 @@ body {
     width: 60%;
     margin-bottom: 1rem;
   }
-  .swap-money-footer .sub-section-1 .swap-footer-1 p {
+  .swap-money-footer .sub-section-1 .swap-footer-1 .footer-text p {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 300;

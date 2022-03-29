@@ -292,12 +292,14 @@ body {
               color: $yellow;
             }
           }
-          p {
-            margin-top: 0.5rem;
-            color: $white;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 0.9em;
+          .offer-text{
+            p {
+              margin-top: 0.5rem;
+              color: $white;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 0.9em;
+            }
           }
           .hero_button {
             margin-top: 0.5rem;
@@ -397,12 +399,14 @@ body {
               font-family: "Raleway", sans-serif;
               font-style: normal;
               font-weight: 600;
-              font-size: 2.9em;
+              font-size: 2.35em;
               // line-height: 67px;
             }
-            p {
-              margin-top: 1.5rem;
-              font-size: 1.1em;
+            .offer-text{
+              p {
+                margin-top: 1.5rem;
+                font-size: 0.9em;
+              }
             }
             .hero_button {
               width: max-content;
@@ -444,18 +448,19 @@ body {
       }
     }
 
-    .swapmoney_values{
-      .sub-section--1{
-        padding-left: 1rem;
-        .values_container{
-          .row{
-            .sub__values{
-              span{
-                font-size: 0.6em;
-              }
-              p{
-                font-size: 2em;
-              }
+  }
+
+  .swapmoney_values{
+    .sub-section--1{
+      .values_container{
+        .row{
+          padding-left: 1rem;
+          .sub__values{
+            span{
+              font-size: 0.6em;
+            }
+            p{
+              font-size: 2em;
             }
           }
         }
@@ -469,7 +474,7 @@ body {
 }
 };
 
-@media screen and (min-width: 420px) and (max-width:975px) {
+@media screen and (min-width: 420px) and (max-width:830px) {
   .hero-section {
     // margin: 0;
 
@@ -484,9 +489,13 @@ body {
               font-size: 2em;
               // line-height: 67px;
             }
-            p {
-              margin-top: 1.5rem;
-              font-size: 0.8em;
+            .offer-text{
+              width: 50%;
+              p {
+                margin-top: 1.5rem;
+                font-size: 0.8em;
+              }
+
             }
             .hero_button {
               width: max-content;
@@ -2527,12 +2536,14 @@ body {
         width: 30%;
         margin-bottom: 1rem;
       }
-      p {
-        color: $white;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 0.9em;
-        // line-height: 150%;
+      .footer-text{
+        p {
+          color: $white;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 0.9em;
+          // line-height: 150%;
+        }
       }
     }
     .about-footer{
@@ -2626,11 +2637,13 @@ body {
       text-align: left;
       .swap-footer-1{
         img{
-          width: 100%;
+          width: 70%;
         }
-        p{
-          font-size: 0.9em;
-          margin-bottom: 3rem;
+        .footer-text{
+          p{
+            font-size: 0.9em;
+            margin-bottom: 3rem;
+          }
         }
       }
       .about-footer{
@@ -2679,9 +2692,11 @@ body {
         img{
           width: 50%;
         }
-        p{
-          font-size: 0.9em;
-          margin-bottom: 3rem;
+        .footer-text{
+          p{
+            font-size: 0.9em;
+            margin-bottom: 3rem;
+          }
         }
       }
       .about-footer{
@@ -2733,12 +2748,15 @@ body {
           width: 60%;
           margin-bottom: 1rem;
         }
-        p {
-          color: $white;
-          font-style: normal;
-          font-weight: 300;
-          font-size: 0.9em;
-          // line-height: 150%;
+        .footer-text{
+          p {
+            color: $white;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 0.9em;
+            // line-height: 150%;
+          }
+
         }
       }
       .about-footer{
