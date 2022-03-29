@@ -213,12 +213,13 @@ body {
   }
 }
 
-@media screen and(min-width:992px) and (max-width: 1200px) {
+@media screen and(min-width:975px) and (max-width: 1200px) {
   .navbar_wrapper{
     width: 100%;
     .sub-header{
       padding: 0.5rem;
-      width: 84%;
+      width: 90%;
+      left: 45px;
       // margin-left: 5rem;      
       .firstContainer{
         .navbar-brand{
@@ -604,10 +605,11 @@ body {
     // margin: 0;
     .hero-section-1 {
       .hero-1 {
+        padding: 2rem;
         .sub_hero {
           .herotext {
             h1 {
-              font-size: 3.2em;
+              font-size: 3em;
             }
             p {
               font-size: 0.8em;
@@ -1577,6 +1579,245 @@ body {
   }
 }
 
+@media screen and (min-width: 975px)and (max-width:1200px) {
+  .why-swap-money {
+    margin: 0;
+  
+    .sub-section {
+      padding: 6rem;
+      .sub-section-1 {
+        display: flex;
+        align-items: center;
+        .girl-image {
+          margin-right: 2rem;
+          // overflow: hidden;
+          img {
+            width: 100%;
+          }
+        }
+        // .girl-image:hover {
+        //   margin-right: 2rem;
+        //   width: 300px;
+        //   height: 300px;
+        //   transform: rotate(180deg);
+        //   img {
+        //     width: 100%;
+        //   }
+        }
+        .why-swap-text {
+          background: #FFFFFF;
+          box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          color: $pri_purple;
+          padding: 30px 40px;
+          margin-left: 2rem;
+          h2 {
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2em;
+          }
+          p {
+            margin-top: 2rem;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            // line-height: 170%;
+          }
+        }
+      }
+  
+      .sub-section-2 {
+        padding: 4rem;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .swap-benefits-1 {
+          width: 100%;
+          max-width: 268px;
+          max-height: 122px;
+          // width: 268px;
+          // height: 122px;
+          background: rgba(255, 255, 255, 0.3);
+          backdrop-filter: blur(4px);
+          // margin-right: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          /* Note: backdrop-filter has minimal browser support */
+  
+          border-radius: 10px;
+          .swap-card {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            padding: 1rem;
+            img {
+              // margin-right: 0.5rem;
+              width: 60%;
+            }
+  
+            .swap-text {
+              width: 100%;
+              color: $white;
+              text-align: left;
+  
+              span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.7em;
+              }
+              p {
+                font-family: "Raleway", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.2em;
+              }
+            }
+          }
+        }
+        .swap-benefits-2 {
+          width: 100%;
+          max-width: 384px;
+          max-height: 122px;
+          margin-left: 2rem;
+          // width: 384px;
+          // height: 122px;
+          background: rgba(255, 255, 255, 0.3);
+          backdrop-filter: blur(4px);
+          // margin-right: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /* Note: backdrop-filter has minimal browser support */
+  
+          border-radius: 10px;
+          .swap-card {
+            display: flex;
+            align-items: center;
+  
+            // justify-content: space-between;
+            padding: 1rem;
+            width: 100%;
+            img {
+              // margin-right: 0.5rem;
+              width: 60%;
+            }
+  
+            .swap-text {
+              color: $white;
+              text-align: left;
+  
+              span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.7em;
+              }
+              p {
+                font-family: "Raleway", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.2em;
+              }
+            }
+          }
+        }
+        .swap-benefits-3 {
+          width: 100%;
+          max-width: 197px;
+          max-height: 122px;
+          margin-left: 2rem;
+          // width: 197px;
+          // height: 122px;
+          background: rgba(255, 255, 255, 0.3);
+          backdrop-filter: blur(4px);
+          // margin-right: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /* Note: backdrop-filter has minimal browser support */
+  
+          border-radius: 10px;
+          .swap-card {
+            display: flex;
+            align-items: center;
+  
+            // justify-content: space-around;
+            padding: 1rem;
+            width: 100%;
+            img {
+              // margin-right: 0.5rem;
+              width: 60%;
+            }
+  
+            .swap-text {
+              color: $white;
+              text-align: left;
+              span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.7em;
+              }
+              p {
+                font-family: "Raleway", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.5em;
+              }
+            }
+          }
+        }
+        .swap-benefits-4 {
+          width: 100%;
+          max-width: 417px;
+          max-height: 122px;
+          margin-left: 2rem;
+          // width: 417px;
+          // height: 122px;
+          background: rgba(255, 255, 255, 0.3);
+          backdrop-filter: blur(4px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /* Note: backdrop-filter has minimal browser support */
+  
+          border-radius: 10px;
+          .swap-card {
+            display: flex;
+            align-items: center;
+  
+            // justify-content: space-between;
+            padding: 1rem;
+            width: 100%;
+            img {
+              width: 60%;
+            }
+  
+            .swap-text {
+              color: $white;
+              text-align: left;
+  
+              span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.7em;
+              }
+              p {
+                font-family: "Raleway", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1em;
+              }
+            }
+          }
+        }
+      }
+  
+  }
+}
+
 
 .why-swap-money-2 {
   margin: 0;
@@ -1761,6 +2002,160 @@ body {
       }
     }
   }
+}
+
+@media screen and (min-width: 975px) and (max-width:1200px) {
+  .why-swap-money-2 {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+      .sub-section {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        // padding-left: 6rem;
+      // padding-right: 4rem;
+      // padding-bottom: 6rem;
+      // margin-bottom: 6rem;
+      .sub-section-2 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        align-items: center;
+        // padding: 3rem 6rem 6rem 6rem;
+        .why-swap-text {        
+          background: #FFFFFF;
+          box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          color: $pri_purple;
+          text-align: justify;
+          padding: 2rem;
+          // padding: 30px 30px 0px 30px;
+          // margin-right: 4rem;
+          margin-bottom: 0;
+          width: 70%;
+          h2{
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2em;
+            // line-height: 61px;
+            .colored-impossibilities{
+              color: $yellow2;
+            }        
+          }
+          p {
+            text-align: justify;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            // line-height: 170%;
+            text-align: justify;        
+          }
+          .learn-more {
+            margin-top: 1rem;
+            background-color: #e5e5e500;
+            color: $white;
+            border: 1px solid $white;
+            padding: 1rem;
+            border-radius: 7px;
+          }
+          .learn-more:hover {
+            margin-top: 1rem;
+            background-color: $bg_color;
+            color: $white;
+            border: none;
+            padding: 1rem;
+            border-radius: 7px;
+          }
+        }
+        .why-swap-text-2 {
+          padding-top: 4rem;
+          padding-bottom: 3rem;
+          width: 80%;
+          img {
+            width: 90%;
+          // width: 453px;
+          // height: 858px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1290px) {
+  .why-swap-money-2 {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+      .sub-section {
+        display: flex;
+        justify-content: center;
+        padding-left: 6rem;
+      // padding-right: 4rem;
+      padding-bottom: 6rem;
+      // margin-bottom: 6rem;
+      .sub-section-2 {
+        justify-content: center;
+        padding: 0;
+        // padding: 3rem 6rem 6rem 6rem;
+        .why-swap-text {        
+          background: #FFFFFF;
+          box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          color: $pri_purple;
+          text-align: justify;
+          padding: 2rem;
+          // padding: 30px 30px 0px 30px;
+          // margin-right: 4rem;
+          margin-bottom: 0;
+          width: 50%;
+          h2{
+            font-family: "Raleway", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2em;
+            // line-height: 61px;
+            .colored-impossibilities{
+              color: $yellow2;
+            }        
+          }
+          p {
+            text-align: justify;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1em;
+            // line-height: 170%;
+            text-align: justify;        
+          }
+          .learn-more {
+            margin-top: 1rem;
+            background-color: #e5e5e500;
+            color: $white;
+            border: 1px solid $white;
+            padding: 1rem;
+            border-radius: 7px;
+          }
+          .learn-more:hover {
+            margin-top: 1rem;
+            background-color: $bg_color;
+            color: $white;
+            border: none;
+            padding: 1rem;
+            border-radius: 7px;
+          }
+        }
+        .why-swap-text-2 {
+          img {
+            width: 80%;
+          // width: 453px;
+          // height: 858px;
+          }
+        }
+      }
+    }
+  } 
 }
 
 .win-with-us {
@@ -2074,13 +2469,14 @@ body {
   }
 }
 
-@media screen and(max-width:1200px) {
+@media screen and(min-width:830px) and (max-width:1200px) {
   .win-with-us {
     margin: 0;
 
     .sub-section {
       justify-content: center;
       align-items: normal;
+      padding: 2rem;
       .sub-section-1 {
         .card-wrap {
           .swap-cardds-1, .swap-cardds-2, .swap-cardds-3 {
@@ -2093,6 +2489,19 @@ body {
             //     }
             //   }
             // }
+          }
+
+          .swap-cardds-3 {
+            margin-top: 4rem;
+            img {
+            }
+            .card-body {
+              padding-bottom: 2.5rem;
+              .custom-title {
+                .card-text {
+                }
+              }
+            }
           }
         }
       }
