@@ -405,7 +405,7 @@ body {
   }
 }
 
-@media screen and (min-width: 420px) and (max-width: 830px) {
+@media screen and (min-width: 420px) and (max-width: 975px) {
   .hero-section .hero-section-1 .hero-1 .sub_hero .herotext h1 {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -1309,6 +1309,63 @@ body {
   }
 }
 
+@media screen and (min-width: 830px) and (max-width: 975px) {
+  .why-swap-money {
+    margin: 0;
+  }
+  .why-swap-money .sub-section .sub-section-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: -6rem;
+    margin-right: -2rem;
+    padding-bottom: 5rem;
+  }
+  .why-swap-money .sub-section .sub-section-1 .girl-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 2rem;
+  }
+  .why-swap-money .sub-section .sub-section-1 .girl-image img {
+    width: 50%;
+  }
+  .why-swap-money .sub-section .sub-section-1 .why-swap-text {
+    width: 85%;
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+  .why-swap-money .sub-section .sub-section-1 .why-swap-text h2 {
+    font-size: 1.5em;
+  }
+  .why-swap-money .sub-section .sub-section-1 .why-swap-text p {
+    font-size: 1em;
+  }
+  .why-swap-money .sub-section .sub-section-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  .why-swap-money .sub-section .sub-section-2 .swap-benefits-1 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .why-swap-money .sub-section .sub-section-2 .swap-benefits-2 {
+    margin-top: 2rem;
+  }
+  .why-swap-money .sub-section .sub-section-2 .swap-benefits-3 {
+    margin-top: 2rem;
+  }
+  .why-swap-money .sub-section .sub-section-2 .swap-benefits-4 {
+    margin-top: 2rem;
+  }
+}
+
 .why-swap-money-2 {
   margin: 0;
   -webkit-box-pack: center;
@@ -1458,6 +1515,46 @@ body {
   }
   .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text-2 img {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 830px) and (max-width: 975px) {
+  .why-swap-money-2 {
+    margin: 0;
+    padding-bottom: 4rem;
+  }
+  .why-swap-money-2 .sub-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0rem;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text {
+    width: 80%;
+    padding: 1.5rem;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text h2 {
+    font-size: 1.5em;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text p {
+    font-size: 1em;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text-2 {
+    width: 93%;
+    padding-top: 3rem;
+  }
+  .why-swap-money-2 .sub-section .sub-section-2 .why-swap-text-2 img {
+    width: 90%;
   }
 }
 
@@ -1704,6 +1801,50 @@ body {
   }
 }
 
+@media screen and (min-width: 830px) and (max-width: 975px) {
+  .win-with-us {
+    margin: 0;
+  }
+  .win-with-us .sub-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    padding-bottom: 4rem;
+  }
+  .win-with-us .sub-section h2 {
+    padding: 3rem 1rem 0rem 1rem;
+    font-size: 2.2em;
+  }
+  .win-with-us .sub-section .sub-section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+  .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1 .card-body .custom-title .accordion .accordion-item .accordion-header button, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2 .card-body .custom-title .accordion .accordion-item .accordion-header button, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body .custom-title .accordion .accordion-item .accordion-header button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 0.7em;
+  }
+  .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body {
+    padding-bottom: 2.5rem;
+  }
+  .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 .card-body .custom-title .accordion .accordion-item .accordion-header button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 0.7em;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .win-with-us {
     margin: 0;
@@ -1712,9 +1853,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: normal;
+        -ms-flex-align: normal;
+            align-items: normal;
   }
   .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-1, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-2, .win-with-us .sub-section .sub-section-1 .card-wrap .swap-cardds-3 {
     margin-top: 4rem;
@@ -1897,6 +2038,105 @@ body {
   }
 }
 
+@media screen and (min-width: 830px) and (max-width: 975px) {
+  .swap-money-footer {
+    margin: 0;
+  }
+  .swap-money-footer .sub-section-1 {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5rem 1rem 3rem 1rem;
+  }
+  .swap-money-footer .sub-section-1 .swap-footer-1 {
+    margin-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .swap-footer-1 img {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+  .swap-money-footer .sub-section-1 .swap-footer-1 p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .companies {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #9b9bf7;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .footer-links {
+    margin-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .footer-links p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-companies .footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products {
+    padding-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .products {
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #9b9bf7;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .footer-links {
+    margin-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .footer-links p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-products .footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers {
+    padding-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .offers {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #9b9bf7;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .footer-links {
+    margin-top: 2rem;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .footer-links p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+  .swap-money-footer .sub-section-1 .about-footer .swap-footer-2 .footer-offers .footer-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}
+
 .footer-base {
   margin: 0;
   display: -webkit-box;
@@ -1958,6 +2198,20 @@ body {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+  }
+  .footer-base .footer-base-circles {
+    margin-bottom: 2rem;
+  }
+  .footer-base .footer-copyright p {
+    font-size: 0.8em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 830px) and (max-width: 975px) {
+  .footer-base {
+    margin: 0;
+    padding: 1.5rem;
   }
   .footer-base .footer-base-circles {
     margin-bottom: 2rem;
