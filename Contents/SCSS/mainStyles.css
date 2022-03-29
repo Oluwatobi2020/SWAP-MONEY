@@ -621,7 +621,7 @@ body {
     font-size: 0.3em;
   }
   .about-us .sub_section-2 .about-us-row .about-image {
-    display: block;
+    display: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
